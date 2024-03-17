@@ -4,7 +4,6 @@
 
 This repository contains practice exercises and projects related to networking concepts, as part of the curriculum at 42 School. These exercises are designed to help students grasp various networking principles and protocols, enhancing their understanding and skills in this domain.
 
-
 ## Introduction to Networking
 Networking is a foundational concept in the realm of computer science and technology. It revolves around the interconnection of devices and systems to share resources, information, and communication. In today's interconnected world, networking is crucial in enabling communication between computers, smartphones, servers, and other devices, both locally and globally.
 
@@ -39,11 +38,12 @@ Networking encompasses a wide range of concepts and principles that form the fou
 - **TCP/IP Model (Transmission Control Protocol/Internet Protocol)**: The TCP/IP model is a simplified version of the OSI model, commonly used in modern networking environments, especially on the internet. It consists of four layers: Network Interface, Internet, Transport, and Application. The TCP/IP model defines the protocols and services used for communication between devices on the internet, including IP addressing, routing, TCP, UDP, and application-layer protocols such as HTTP, FTP, and DNS.
   - [Geeksforgeeks - TCP/IP model](https://www.geeksforgeeks.org/tcp-ip-model/) 
 
-
-
-
-
-
+### 2. Data Transmission
+- **Analog vs. Digital**: Data transmission can occur in analog or digital formats. Analog transmission involves continuous signals that vary in amplitude or frequency, while digital transmission involves discrete signals represented as binary digits (0s and 1s).
+   - [Khan Academy - Digital and analog information
+](https://www.khanacademy.org/science/ms-physics/x1baed5db7c1bb50b:waves/x1baed5db7c1bb50b:digital-signals/v/digital-and-analog-information)
+- **Bandwidth**: Bandwidth refers to the maximum data transfer rate of a network or internet connection, typically measured in bits per second (bps), kilobits per second (kbps), or megabits per second (Mbps). Higher bandwidth allows for faster data transmission.
+- **Latency**: Latency, also known as delay, is the time it takes for data to travel from its source to its destination over a network. Latency can be affected by factors such as network congestion, distance, and processing time.
 
 
 ## Net Practice Resources
