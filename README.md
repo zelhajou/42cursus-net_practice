@@ -122,10 +122,10 @@ Networking encompasses a wide range of concepts and principles that form the fou
 - **File Transfer Protocol (FTP)**: FTP is a protocol used for transferring files between a client and a server over a network. It supports various operations such as file upload, download, renaming, and deletion. FTP operates on TCP and uses port 21 for control connections and port 20 for data connections.
 - **Domain Name System (DNS)**: DNS is a distributed naming system that translates domain names into IP addresses and vice versa. It enables users to access websites using human-readable domain names instead of numerical IP addresses. DNS operates on both UDP (for queries) and TCP (for zone transfers).
   - [What is DNS?](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/)
-  - [How DNS works (comic)]()
-  - DNS and How does it Work?
-  - DNS Records
-  - Complete DNS mini-series
+  - [How DNS works (comic)](https://howdns.works/)
+  - [DNS and How does it Work?](https://www.youtube.com/watch?v=Wj0od2ag5sk)
+  - [DNS Records](https://www.youtube.com/watch?v=7lxgpKh_fRY)
+  - [Complete DNS mini-series](https://www.youtube.com/watch?v=zEmUuNFBgN8&list=PLTk5ZYSbd9MhMmOiPhfRJNW7bhxHo4q-K)
 - **Simple Mail Transfer Protocol (SMTP)**: SMTP is a protocol used for sending email messages between mail servers. It defines how email messages are transmitted and delivered over the internet. SMTP operates on TCP and uses port 25 by default.
 - **Secure Shell (SSH)**: SSH is a cryptographic network protocol used for secure remote access to networked devices. It provides encrypted communication and authentication mechanisms for secure login sessions. SSH operates on TCP and uses port 22 by default.
 - **Telnet**: Telnet is a protocol used for remote terminal emulation over a network. It allows users to access and manage devices remotely using a command-line interface. Telnet operates on TCP and uses port 23 by default.
