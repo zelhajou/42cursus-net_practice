@@ -40,8 +40,8 @@ Networking encompasses a wide range of concepts and principles that form the fou
   - [What is OSI Model | Real World Examples](https://youtu.be/0y6FtKsg6J4) 📹
   - [OSI Layers](https://youtu.be/A31bxOyj5mk)[AR] 📹
 - **TCP/IP Model (Transmission Control Protocol/Internet Protocol)**: The TCP/IP model is a simplified version of the OSI model, commonly used in modern networking environments, especially on the internet. It consists of four layers: Network Interface, Internet, Transport, and Application. The TCP/IP model defines the protocols and services used for communication between devices on the internet, including IP addressing, routing, TCP, UDP, and application-layer protocols such as HTTP, FTP, and DNS.
-  - [Geeksforgeeks - TCP/IP model](https://www.geeksforgeeks.org/tcp-ip-model/) 
-
+  - [Geeksforgeeks - TCP/IP model](https://www.geeksforgeeks.org/tcp-ip-model/)
+  - [NetworkChuck - What is TCP/IP and OSI?](https://www.youtube.com/watch?v=CRdL1PcherM&list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P&index=4&pp=iAQB) 
 ### 2. Data Transmission
 - **Analog vs. Digital**: Data transmission can occur in analog or digital formats. Analog transmission involves continuous signals that vary in amplitude or frequency, while digital transmission involves discrete signals represented as binary digits (0s and 1s). Digital transmission is more resilient to noise and distortion, making it the preferred method for most modern communication systems.
    - [Khan Academy - Digital and analog information
@@ -51,6 +51,7 @@ Networking encompasses a wide range of concepts and principles that form the fou
 
 ### 3. Network Devices
 - **Routers**: Routers are network devices that forward data packets between different computer networks. They operate at the network layer of the OSI model and use routing tables and protocols to determine the best path for packet delivery. Routers play a crucial role in connecting devices across multiple networks and enabling communication between them.
+  - [NetworkChuck - What is ROUTER?](https://www.youtube.com/watch?v=p9ScLm9S3B4&list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P&index=3&pp=iAQB) 
 - **Switches**: Switches are network devices that connect multiple devices within a local area network (LAN). They operate at the data link layer of the OSI model and use MAC addresses to forward data packets to the intended recipient. Switches improve network efficiency and performance by reducing collisions and segmenting network traffic.
   - [NetworkChuck - What is a SWITCH?](https://youtu.be/9eH16Fxeb9o?list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P)📹
 - **Hubs**: Hubs are network devices that connect multiple devices within a LAN. Unlike switches, hubs operate at the physical layer of the OSI model and broadcast data packets to all connected devices. This broadcasting can lead to network congestion and reduced performance, making hubs less common in modern network environments.
@@ -72,6 +73,8 @@ Networking encompasses a wide range of concepts and principles that form the fou
 - **ICMP (Internet Control Message Protocol)**: ICMP is a network layer protocol used for sending control messages and error reporting between devices on IP networks. It includes messages such as echo request/reply (ping), destination unreachable, time exceeded, and parameter problem. ICMP plays a critical role in diagnosing network connectivity issues, troubleshooting routing problems, and monitoring network performance.
 - **ARP (Address Resolution Protocol)**: ARP is a protocol used for mapping IP addresses to MAC addresses on a local network. It enables devices to determine the hardware address of a target device for communication. ARP is essential for transmitting data between devices within the same subnet and is commonly used in Ethernet networks.
 
+  - [ByteByteGo - Top 8 Most Popular Network Protocols Explained](https://youtu.be/P6SZLcGE4us)
+
 ### 5. Network Topologies
 
 ![5f1086baa37c842a30184650_network-topology-types-diagram](https://github.com/zelhajou/42-net_practice/assets/39954629/b0b8d397-e828-445c-951c-bfcd54eaa207)
@@ -84,7 +87,7 @@ Networking encompasses a wide range of concepts and principles that form the fou
   - [Network Topologies (Star, Bus, Ring, Mesh, Ad hoc, Infrastructure, & Wireless Mesh Topology)](https://www.youtube.com/watch?v=zbqrNg4C98U)📹
   - [IT Dose - Network Topologies Bus - Ring - Mesh - Star](https://youtu.be/cLuBLwa3XlI)[AR]📹
 
-
+## Network Communication
 
 ## Net Practice Resources
 
