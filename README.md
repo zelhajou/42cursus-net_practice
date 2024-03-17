@@ -45,6 +45,18 @@ Networking encompasses a wide range of concepts and principles that form the fou
 - **Bandwidth**: Bandwidth refers to the maximum data transfer rate of a network or internet connection, typically measured in bits per second (bps), kilobits per second (kbps), or megabits per second (Mbps). Higher bandwidth allows for faster data transmission.
 - **Latency**: Latency, also known as delay, is the time it takes for data to travel from its source to its destination over a network. Latency can be affected by factors such as network congestion, distance, and processing time.
 
+### Network Devices
+- **Routers**: Routers are network devices that forward data packets between different computer networks. They use routing tables and protocols to determine the best path for packet delivery.
+- **Switches**: Switches are network devices that connect multiple devices within a local area network (LAN). They forward data packets based on MAC addresses, allowing devices to communicate directly with each other.
+- **Hubs**: Hubs are network devices that connect multiple devices within a LAN. Unlike switches, hubs broadcast data packets to all connected devices, which can lead to network congestion and reduced performance.
+- **Modems**: Modems (modulator-demodulator) are devices that modulate digital data signals into analog signals for transmission over analog communication channels (such as telephone lines) and demodulate analog signals back into digital data signals for reception.
+
+  - [Geeksforgeeks - Network Devices (Hub, Repeater, Bridge, Switch, Router, Gateways and Brouter)](https://www.geeksforgeeks.org/network-devices-hub-repeater-bridge-switch-router-gateways/)
+  - [Hub vs Switch vs Router](https://youtu.be/_ifRgCb8o60)[AR]
+  - [NETWORK DEVICES الفرق بين أجهزة الشبكة](https://www.youtube.com/watch?v=X2LF8rzWijk&pp=ygUWbmV0d29yayBkZXZpY2VzINi02LHYrQ%3D%3D)[AR]
+  - [Hub, Switch, & Router Explained - What's the difference?](https://youtu.be/1z0ULvg_pW8)
+  - [Modem vs Router - What's the difference?](https://www.youtube.com/watch?v=Mad4kQ5835Y)
+  - [Layer 2 vs Layer 3 Switches](https://www.youtube.com/watch?v=bdNS0K4Bt8U)
 
 ## Net Practice Resources
 
