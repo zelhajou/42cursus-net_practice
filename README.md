@@ -72,7 +72,6 @@ Networking encompasses a wide range of concepts and principles that form the fou
 - **UDP (User Datagram Protocol)**: UDP is a connectionless, unreliable protocol used for transmitting data packets over networks. Unlike TCP, UDP does not establish a connection before sending data and does not provide error checking, sequencing, or flow control mechanisms. UDP is commonly used for real-time applications such as voice and video streaming, where low latency and high throughput are more important than reliability.
 - **ICMP (Internet Control Message Protocol)**: ICMP is a network layer protocol used for sending control messages and error reporting between devices on IP networks. It includes messages such as echo request/reply (ping), destination unreachable, time exceeded, and parameter problem. ICMP plays a critical role in diagnosing network connectivity issues, troubleshooting routing problems, and monitoring network performance.
 - **ARP (Address Resolution Protocol)**: ARP is a protocol used for mapping IP addresses to MAC addresses on a local network. It enables devices to determine the hardware address of a target device for communication. ARP is essential for transmitting data between devices within the same subnet and is commonly used in Ethernet networks.
-
   - [ByteByteGo - Top 8 Most Popular Network Protocols Explained](https://youtu.be/P6SZLcGE4us)
 
 ### 5. Network Topologies
@@ -88,10 +87,37 @@ Networking encompasses a wide range of concepts and principles that form the fou
   - [IT Dose - Network Topologies Bus - Ring - Mesh - Star](https://youtu.be/cLuBLwa3XlI)[AR]📹
 
 ## Network Communication
+- **Local Area Networks (LANs)**: LANs are networks that connect devices within a limited geographic area, such as a home, office, or campus. They typically use Ethernet or Wi-Fi technology and are often used for sharing resources such as files, printers, and internet access.
+- **Wide Area Networks (WANs)**: WANs connect devices over a wide geographic area, often spanning multiple cities or countries. Examples include the internet, private leased lines, and virtual private networks (VPNs).
+- **Wireless Networking**: Wireless technologies enable communication between devices without the need for physical cables. Common wireless standards include Wi-Fi (802.11), Bluetooth, and cellular networks (e.g., 3G, 4G, 5G).
+- **Ethernet Technologies**: Ethernet is a widely used networking technology that defines standards for data transmission over wired LANs. Variants include Ethernet, Fast Ethernet, Gigabit Ethernet, and 10 Gigabit Ethernet.
+- **Data Link Layer**: The data link layer is responsible for transferring data between adjacent network nodes. It includes functions such as framing, addressing (MAC addresses), error detection, and flow control.
+- **Network Layer**: The network layer handles routing and forwarding of data packets across interconnected networks. It includes protocols such as IP (Internet Protocol), ICMP (Internet Control Message Protocol), and ARP (Address Resolution Protocol).
+
+## Internet Protocol (IP)
+
+- **IPv4 Addressing**: IPv4 (Internet Protocol version 4) addresses are numerical identifiers assigned to devices on a network. IPv4 addresses are 32 bits long and are expressed in dotted-decimal notation (e.g., 192.168.1.1).
+  - **Subnetting**: Subnetting is the process of dividing a larger network into smaller, more manageable subnetworks or subnets. It involves borrowing bits from the host portion of an IP address to create multiple subnets, each with its own unique range of IP addresses. Subnetting allows network administrators to efficiently allocate IP addresses and manage network resources by organizing devices into logical groups based on their network requirements. Subnet masks are used to identify the network portion and the host portion of an IP address, determining which devices belong to the same subnet and can communicate directly with each other without the need for routing.
+- **IPv6 Addressing**: IPv6 (Internet Protocol version 6) addresses are the next generation of IP addresses designed to overcome the limitations of IPv4. IPv6 addresses are 128 bits long and are expressed in hexadecimal notation (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334).
+- **IP Routing**: IP routing involves forwarding data packets between networks based on destination IP addresses. Routing protocols such as RIP (Routing Information Protocol), OSPF (Open Shortest Path First), and BGP (Border Gateway Protocol) are used to determine the best path for packet delivery.
+- **ICMP (Internet Control Message Protocol)**: ICMP is a network layer protocol used for sending control messages and error reporting between devices on IP networks. Common ICMP messages include ping (echo request/reply) and traceroute (packet path tracing).
+- **ARP (Address Resolution Protocol)**: ARP is a protocol used for mapping IP addresses to MAC addresses on a local network. It enables devices to determine the hardware address of a target device for communication.
+
+## Transport Layer
+- **Transmission Control Protocol (TCP)**: TCP is a reliable, connection-oriented protocol used for transmitting data packets over networks. It provides features such as error detection, flow control, congestion control, and reliable data delivery through mechanisms like acknowledgment, sequencing, and retransmission.
+- **User Datagram Protocol (UDP)**: UDP is a connectionless, unreliable protocol used for transmitting data packets over networks. It offers low-overhead communication without the reliability mechanisms of TCP, making it suitable for real-time applications such as VoIP (Voice over IP) and online gaming.
+- **Port Numbers**: Port numbers are used to identify specific communication endpoints within a device. They allow multiple network services to run concurrently on a single device. Well-known port numbers (0-1023) are reserved for standard services, while registered port numbers (1024-49151) and dynamic/private port numbers (49152-65535) are used for other applications.
+
+## Application Layer Protocols:
+- **Hypertext Transfer Protocol (HTTP)**: HTTP is a protocol used for transferring hypertext documents, such as web pages, over the internet. It operates on top of TCP and uses port 80 by default. HTTP defines methods for requesting and transmitting data between clients (web browsers) and servers.
+- **File Transfer Protocol (FTP)**: FTP is a protocol used for transferring files between a client and a server over a network. It supports various operations such as file upload, download, renaming, and deletion. FTP operates on TCP and uses port 21 for control connections and port 20 for data connections.
+- **Domain Name System (DNS)**: DNS is a distributed naming system that translates domain names into IP addresses and vice versa. It enables users to access websites using human-readable domain names instead of numerical IP addresses. DNS operates on both UDP (for queries) and TCP (for zone transfers).
+- **Simple Mail Transfer Protocol (SMTP)**: SMTP is a protocol used for sending email messages between mail servers. It defines how email messages are transmitted and delivered over the internet. SMTP operates on TCP and uses port 25 by default.
+- **Secure Shell (SSH)**: SSH is a cryptographic network protocol used for secure remote access to networked devices. It provides encrypted communication and authentication mechanisms for secure login sessions. SSH operates on TCP and uses port 22 by default.
+- **Telnet**: Telnet is a protocol used for remote terminal emulation over a network. It allows users to access and manage devices remotely using a command-line interface. Telnet operates on TCP and uses port 23 by default.
+- **Dynamic Host Configuration Protocol (DHCP)**: DHCP is a protocol used for dynamically assigning IP addresses to network devices. It simplifies network configuration by automatically allocating IP addresses, subnet masks, default gateways, and other parameters to devices when they connect to a network.
+- **Network Time Protocol (NTP)**: NTP is a protocol used for synchronizing the clocks of networked devices. It ensures accurate timekeeping across distributed systems by synchronizing devices with a reference time source.
 
 ## Net Practice Resources
-
-
 - [Guide to NetPractice](https://github.com/lpaube/NetPractice?tab=readme-ov-file)
-
 - [NetPractice](https://42-cursus.gitbook.io/guide/rank-04/netpractice)
