@@ -107,11 +107,25 @@ Networking encompasses a wide range of concepts and principles that form the fou
 - **Transmission Control Protocol (TCP)**: TCP is a reliable, connection-oriented protocol used for transmitting data packets over networks. It provides features such as error detection, flow control, congestion control, and reliable data delivery through mechanisms like acknowledgment, sequencing, and retransmission.
 - **User Datagram Protocol (UDP)**: UDP is a connectionless, unreliable protocol used for transmitting data packets over networks. It offers low-overhead communication without the reliability mechanisms of TCP, making it suitable for real-time applications such as VoIP (Voice over IP) and online gaming.
 - **Port Numbers**: Port numbers are used to identify specific communication endpoints within a device. They allow multiple network services to run concurrently on a single device. Well-known port numbers (0-1023) are reserved for standard services, while registered port numbers (1024-49151) and dynamic/private port numbers (49152-65535) are used for other applications.
+- **TLS (Transport Layer Security)**: TLS is a cryptographic protocol used to secure communication over a computer network. It provides encryption, data integrity, and authentication for data transmissions between clients and servers. TLS ensures that data exchanged between parties remains confidential and tamper-proof, protecting against eavesdropping, data manipulation, and impersonation attacks. and is widely used to secure HTTP, although it can be used with any protocol. TLS is often used in combination with HTTPS, which is HTTP over TLS.
+  - [SSL and HTTPS](https://www.youtube.com/watch?v=S2iBR2ZlZf0)
+  - [SSL/TLS - Cristina Formaini](https://www.youtube.com/watch?v=Rp3iZUvXWlM)
 
 ## Application Layer Protocols:
 - **Hypertext Transfer Protocol (HTTP)**: HTTP is a protocol used for transferring hypertext documents, such as web pages, over the internet. It operates on top of TCP and uses port 80 by default. HTTP defines methods for requesting and transmitting data between clients (web browsers) and servers.
+  - [Everything you need to know about HTTP](https://cs.fyi/guide/http-in-depth)
+  - [What is HTTP?](https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/)
+  - [An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+  - [HTTP/3 From A To Z: Core Concepts](https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/)
+  - [HTTP/1 to HTTP/2 to HTTP/3](https://www.youtube.com/watch?v=a-sBfyiXysI)
+  - [HTTP Crash Course & Exploration](https://www.youtube.com/watch?v=iYM2zFP3Zn0)
 - **File Transfer Protocol (FTP)**: FTP is a protocol used for transferring files between a client and a server over a network. It supports various operations such as file upload, download, renaming, and deletion. FTP operates on TCP and uses port 21 for control connections and port 20 for data connections.
 - **Domain Name System (DNS)**: DNS is a distributed naming system that translates domain names into IP addresses and vice versa. It enables users to access websites using human-readable domain names instead of numerical IP addresses. DNS operates on both UDP (for queries) and TCP (for zone transfers).
+  - [What is DNS?](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/)
+  - [How DNS works (comic)]()
+  - DNS and How does it Work?
+  - DNS Records
+  - Complete DNS mini-series
 - **Simple Mail Transfer Protocol (SMTP)**: SMTP is a protocol used for sending email messages between mail servers. It defines how email messages are transmitted and delivered over the internet. SMTP operates on TCP and uses port 25 by default.
 - **Secure Shell (SSH)**: SSH is a cryptographic network protocol used for secure remote access to networked devices. It provides encrypted communication and authentication mechanisms for secure login sessions. SSH operates on TCP and uses port 22 by default.
 - **Telnet**: Telnet is a protocol used for remote terminal emulation over a network. It allows users to access and manage devices remotely using a command-line interface. Telnet operates on TCP and uses port 23 by default.
