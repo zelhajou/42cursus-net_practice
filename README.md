@@ -145,7 +145,7 @@ IPv6 allows for a mind-boggling number of unique addresses. the exact figure is 
 - **Dynamic Host Configuration Protocol (DHCP)**: DHCP is a protocol used for dynamically assigning IP addresses to network devices. It simplifies network configuration by automatically allocating IP addresses, subnet masks, default gateways, and other parameters to devices when they connect to a network.
 - **Network Time Protocol (NTP)**: NTP is a protocol used for synchronizing the clocks of networked devices. It ensures accurate timekeeping across distributed systems by synchronizing devices with a reference time source.
 
-## Internet Technologies
+## Internet
 
 The Internet is the wider network that allows computer networks around the world run by companies, governments, universities, and other organizations to talk to one another. The result is a mass of cables, computers, data centers, routers, servers, repeaters, satellites, and wifi towers that allow digital information to travel around the world.
  - [Submarine Cable Map](https://www.submarinecablemap.com/#/)
@@ -168,8 +168,9 @@ The Internet is a global network of computers connected which communicate throug
   - [A Packet's Tale. How Does the Internet Work?
 ](https://youtu.be/ewrBalT_eBM)
 
-#### 1. World Wide Web (WWW):
-The World Wide Web is about communication between web **clients** and web **servers**. **Clients** are often browsers (Chrome, Edge, Safari), but they can be any type of program or device. **Servers** are most often computers in the cloud.
+### Internet Technologies
+
+**1. World Wide Web (WWW):** The World Wide Web is about communication between web **clients** and web **servers**. **Clients** are often browsers (Chrome, Edge, Safari), but they can be any type of program or device. **Servers** are most often computers in the cloud.
 
 - The World Wide Web, often referred to as the Web, is an information space where documents and resources are identified by Uniform Resource Locators (URLs) and accessed via the Internet. It is built on top of the Internet and allows users to navigate between interconnected webpages using hyperlinks.
 - The Web relies on various protocols, such as HTTP (Hypertext Transfer Protocol) and HTTPS (HTTP Secure), for communication between web clients (browsers) and servers. HTTP is used for transferring hypertext documents, while HTTPS provides secure communication via encryption using SSL/TLS protocols.
@@ -182,7 +183,45 @@ The World Wide Web is about communication between web **clients** and web **s
   - [Alex Xu - How does HTTPS work?
 ](https://www.linkedin.com/feed/update/urn:li:activity:6927644080734674947/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6927644080734674947%29)
 
+**2. Email**:
+- Email, short for electronic mail, is a method of exchanging digital messages between users over the Internet. It is one of the oldest and most widely used Internet technologies, offering asynchronous communication for sending and receiving messages.
+- Email operates on the Simple Mail Transfer Protocol (SMTP) for sending messages from the sender's email client to the recipient's email server. Messages are then retrieved by the recipient using email protocols such as POP3 (Post Office Protocol version 3) or IMAP (Internet Message Access Protocol).
+- Email addresses follow a specific format, typically consisting of a username, "@" symbol, and domain name (e.g., username@example.com). Email messages can include text, attachments, and multimedia content.
 
+**3. Instant Messaging**:
+- Instant messaging (IM) is a form of real-time communication that enables users to exchange text messages, multimedia files, and other content instantly over the Internet. IM applications provide a platform for synchronous communication between individuals or groups.
+- IM services typically support features such as presence indication (showing whether a user is online, offline, or busy), emoticons, file sharing, and voice/video calling. Examples of popular IM platforms include WhatsApp, Facebook Messenger, and Slack.
+- IM protocols, such as XMPP (Extensible Messaging and Presence Protocol) and proprietary protocols like WhatsApp's protocol, govern how messages are transmitted and exchanged between clients and servers.
+
+**4. Instant Messaging**:
+- Instant messaging (IM) is a form of real-time communication that enables users to exchange text messages, multimedia files, and other content instantly over the Internet. IM applications provide a platform for synchronous communication between individuals or groups.
+- IM services typically support features such as presence indication (showing whether a user is online, offline, or busy), emoticons, file sharing, and voice/video calling. Examples of popular IM platforms include WhatsApp, Facebook Messenger, and Slack.
+- IM protocols, such as XMPP (Extensible Messaging and Presence Protocol) and proprietary protocols like WhatsApp's protocol, govern how messages are transmitted and exchanged between clients and servers.
+
+**5. Streaming Media**:
+- Streaming media refers to the delivery of multimedia content, such as audio and video, over the Internet in real-time or on-demand. It allows users to consume content without downloading the entire file beforehand, enabling instant playback.
+- Streaming services use protocols like HTTP Live Streaming (HLS), MPEG-DASH (Dynamic Adaptive Streaming over HTTP), and RTMP (Real-Time Messaging Protocol) to deliver audio and video content to users' devices. These protocols support adaptive bitrate streaming, allowing the quality of the media stream to adjust based on the user's network conditions.
+- Popular streaming platforms include Netflix, YouTube, Spotify, and Twitch, offering a wide range of content such as movies, TV shows, music, and live broadcasts.
+
+**6. Cloud Computing**:
+- Cloud computing is a model for delivering computing services over the Internet on a pay-as-you-go basis. It provides access to a shared pool of resources, including computing power, storage, and applications, that can be rapidly provisioned and scaled as needed.
+- Cloud computing services are categorized into three main models: Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS). Examples of cloud service providers include Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP).
+- Cloud computing offers numerous benefits, including cost savings, scalability, flexibility, and resilience. It has revolutionized the way organizations deploy and manage IT infrastructure, enabling innovation, agility, and digital transformation.
+
+### How does web browsers work?
+
+- [What is a browser?](https://youtu.be/BrXPcaRlBqo)
+- [How does web browsers work?](https://medium.com/@monica1109/how-does-web-browsers-work-c95ad628a509)
+- [How the Web works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
+- [How Browsers Work: Behind the scenes of modern web browsers - HTML5 Rocks](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
+
+**Headless Browsers**: Headless browsers is a web browsers **without** a graphical user interface that can be controlled from a command line interface programmatically for web page automation (e.g., functional testing, scraping, unit testing, etc.). Think of headless browsers as a browser that you can run programmatically from the command line that can retrieve and traverse web page code.
+
+### What happens when you go to google.com?
+
+- [alex/what-happens-when](https://github.com/alex/what-happens-when#browser)
+- [vasanthk/how-web-works](https://github.com/vasanthk/how-web-works)
+- [Anatomy of a URL](https://doepud.co.uk/anatomy-of-a-url)
 
 ## Net Practice Resources
 - [Guide to NetPractice](https://github.com/lpaube/NetPractice?tab=readme-ov-file)
