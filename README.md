@@ -145,6 +145,29 @@ IPv6 allows for a mind-boggling number of unique addresses. the exact figure is 
 - **Dynamic Host Configuration Protocol (DHCP)**: DHCP is a protocol used for dynamically assigning IP addresses to network devices. It simplifies network configuration by automatically allocating IP addresses, subnet masks, default gateways, and other parameters to devices when they connect to a network.
 - **Network Time Protocol (NTP)**: NTP is a protocol used for synchronizing the clocks of networked devices. It ensures accurate timekeeping across distributed systems by synchronizing devices with a reference time source.
 
+## Internet Technologies
+
+The Internet is the wider network that allows computer networks around the world run by companies, governments, universities, and other organizations to talk to one another. The result is a mass of cables, computers, data centers, routers, servers, repeaters, satellites, and wifi towers that allow digital information to travel around the world.
+ - [Submarine Cable Map](https://www.submarinecablemap.com/#/)
+ - [What is the internet? 13 key questions answered](https://www.theguardian.com/technology/2018/oct/22/what-is-the-internet-13-key-questions-answered)
+ - [Internet Fundamentals](http://internetfundamentals.com/)
+
+The Internet is a global network of computers connected which communicate through a standardized set of protocols each computer connected to the Internet must have a unique address. Internet addresses are in the form nnn.nnn.nnn.nnn where nnn must be a number from 0-255 this address is known as an **IP address**
+
+### How Does The Internet Work?
+
+- [How does the Internet work?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work)
+- [How Does The Internet Work? - BBC Click](https://youtu.be/eHp1l73ztB8)
+- [How does the INTERNET work? | ICT #2](https://youtu.be/x3c1ih2NJEg)
+
+![how-the-internet-works](https://github.com/zelhajou/42-net_practice/assets/39954629/c9c25a14-9d4c-4012-80c4-5ac7c254db06)
+
+![EgBWI0GWAAAeYhA](https://github.com/zelhajou/42-net_practice/assets/39954629/0a971f75-18e8-4798-b6a5-4d46c0614fd8)
+
+
+
+
+
 ## Net Practice Resources
 - [Guide to NetPractice](https://github.com/lpaube/NetPractice?tab=readme-ov-file)
 - [NetPractice](https://42-cursus.gitbook.io/guide/rank-04/netpractice)
