@@ -126,6 +126,10 @@ Networking encompasses a wide range of concepts and principles that form the fou
   - [DNS and How does it Work?](https://www.youtube.com/watch?v=Wj0od2ag5sk)
   - [DNS Records](https://www.youtube.com/watch?v=7lxgpKh_fRY)
   - [Complete DNS mini-series](https://www.youtube.com/watch?v=zEmUuNFBgN8&list=PLTk5ZYSbd9MhMmOiPhfRJNW7bhxHo4q-K)
+  - [DNS in One Picture](https://roadmap.sh/guides/dns-in-one-picture)
+  - [DNS Explained](https://youtu.be/72snZctFFtA)
+  - [What is a Domain Name?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name)
+  - [Beginner's Guide: What is a Domain Name and How Does it Work?](https://www.wpbeginner.com/beginners-guide/beginners-guide-what-is-a-domain-name-and-how-do-domains-work/)
 - **Simple Mail Transfer Protocol (SMTP)**: SMTP is a protocol used for sending email messages between mail servers. It defines how email messages are transmitted and delivered over the internet. SMTP operates on TCP and uses port 25 by default.
 - **Secure Shell (SSH)**: SSH is a cryptographic network protocol used for secure remote access to networked devices. It provides encrypted communication and authentication mechanisms for secure login sessions. SSH operates on TCP and uses port 22 by default.
 - **Telnet**: Telnet is a protocol used for remote terminal emulation over a network. It allows users to access and manage devices remotely using a command-line interface. Telnet operates on TCP and uses port 23 by default.
