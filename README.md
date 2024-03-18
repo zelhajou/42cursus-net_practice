@@ -164,7 +164,9 @@ The Internet is a global network of computers connected which communicate throug
 
 ![EgBWI0GWAAAeYhA](https://github.com/zelhajou/42-net_practice/assets/39954629/0a971f75-18e8-4798-b6a5-4d46c0614fd8)
 
-
+**Packets, Routing, and Reliability**: Information transfer on the internet from one computer to another does not need to follow a fixed path; in fact, it may change paths during the transfer. This information transfer is done in the form of packets and these packets may follow different routes depending upon certain factors.
+  - [A Packet's Tale. How Does the Internet Work?
+](https://youtu.be/ewrBalT_eBM)
 
 
 
