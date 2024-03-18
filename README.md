@@ -137,8 +137,9 @@ IPv6 allows for a mind-boggling number of unique addresses. the exact figure is 
   - [Complete DNS mini-series](https://www.youtube.com/watch?v=zEmUuNFBgN8&list=PLTk5ZYSbd9MhMmOiPhfRJNW7bhxHo4q-K)
   - [DNS in One Picture](https://roadmap.sh/guides/dns-in-one-picture)
   - [DNS Explained](https://youtu.be/72snZctFFtA)
-  - [What is a Domain Name?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name)
+  - [What is a Domain Name?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name): A domain name is a unique, easy-to-remember address used to access websites, such as ‘google.com’, and ‘facebook.com’. Users can connect to websites using domain names thanks to the Domain Name System (DNS).
   - [Beginner's Guide: What is a Domain Name and How Does it Work?](https://www.wpbeginner.com/beginners-guide/beginners-guide-what-is-a-domain-name-and-how-do-domains-work/)
+
 - **Simple Mail Transfer Protocol (SMTP)**: SMTP is a protocol used for sending email messages between mail servers. It defines how email messages are transmitted and delivered over the internet. SMTP operates on TCP and uses port 25 by default.
 - **Secure Shell (SSH)**: SSH is a cryptographic network protocol used for secure remote access to networked devices. It provides encrypted communication and authentication mechanisms for secure login sessions. SSH operates on TCP and uses port 22 by default.
 - **Telnet**: Telnet is a protocol used for remote terminal emulation over a network. It allows users to access and manage devices remotely using a command-line interface. Telnet operates on TCP and uses port 23 by default.
@@ -209,6 +210,7 @@ The Internet is a global network of computers connected which communicate throug
 - Cloud computing offers numerous benefits, including cost savings, scalability, flexibility, and resilience. It has revolutionized the way organizations deploy and manage IT infrastructure, enabling innovation, agility, and digital transformation.
 
 ### How does web browsers work?
+A web browser is a software application that enables a user to access and display web pages or other online content through its graphical user interface.
 
 - [What is a browser?](https://youtu.be/BrXPcaRlBqo)
 - [How does web browsers work?](https://medium.com/@monica1109/how-does-web-browsers-work-c95ad628a509)
