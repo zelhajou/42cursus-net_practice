@@ -96,12 +96,21 @@ Networking encompasses a wide range of concepts and principles that form the fou
 
 ## Internet Protocol (IP)
 
+Internet protocol addresses are numbers that computers use to identify each other on the internet. An ICANN department known as the Internet Assigned Numbers Authority is responsible for distributing IP addresses to ensure that two different organizations don't use the same address
+
 - **IPv4 Addressing**: IPv4 (Internet Protocol version 4) addresses are numerical identifiers assigned to devices on a network. IPv4 addresses are 32 bits long and are expressed in dotted-decimal notation (e.g., 192.168.1.1).
   - **Subnetting**: Subnetting is the process of dividing a larger network into smaller, more manageable subnetworks or subnets. It involves borrowing bits from the host portion of an IP address to create multiple subnets, each with its own unique range of IP addresses. Subnetting allows network administrators to efficiently allocate IP addresses and manage network resources by organizing devices into logical groups based on their network requirements. Subnet masks are used to identify the network portion and the host portion of an IP address, determining which devices belong to the same subnet and can communicate directly with each other without the need for routing.
 - **IPv6 Addressing**: IPv6 (Internet Protocol version 6) addresses are the next generation of IP addresses designed to overcome the limitations of IPv4. IPv6 addresses are 128 bits long and are expressed in hexadecimal notation (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334).
 - **IP Routing**: IP routing involves forwarding data packets between networks based on destination IP addresses. Routing protocols such as RIP (Routing Information Protocol), OSPF (Open Shortest Path First), and BGP (Border Gateway Protocol) are used to determine the best path for packet delivery.
 - **ICMP (Internet Control Message Protocol)**: ICMP is a network layer protocol used for sending control messages and error reporting between devices on IP networks. Common ICMP messages include ping (echo request/reply) and traceroute (packet path tracing).
 - **ARP (Address Resolution Protocol)**: ARP is a protocol used for mapping IP addresses to MAC addresses on a local network. It enables devices to determine the hardware address of a target device for communication.
+
+![ip-adresse-FR-1](https://github.com/zelhajou/42-net_practice/assets/39954629/3c1aa73d-64c6-49b8-8146-902202a83600)
+The current internet standard known as IPv4 only allows for about 4 billion up addresses.
+This was considered a very big number in the 1970s, but today, the supply of IPv4 addresses is nearly exhausted. so internet engineers have developed a new standard called IPv6.
+IPv6 allows for a mind-boggling number of unique addresses. the exact figure is 39 digits long ensuring that the world will never be aging run out. if you connect to the internet through an Internet service provider (ISP) you are usually assigned a temporary IP address for the duration of your diet-in session
+
+
 
 ## Transport Layer
 - **Transmission Control Protocol (TCP)**: TCP is a reliable, connection-oriented protocol used for transmitting data packets over networks. It provides features such as error detection, flow control, congestion control, and reliable data delivery through mechanisms like acknowledgment, sequencing, and retransmission.
