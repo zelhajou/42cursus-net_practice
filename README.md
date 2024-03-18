@@ -168,6 +168,20 @@ The Internet is a global network of computers connected which communicate throug
   - [A Packet's Tale. How Does the Internet Work?
 ](https://youtu.be/ewrBalT_eBM)
 
+#### 1. World Wide Web (WWW):
+The World Wide Web is about communication between web **clients** and web **servers**. **Clients** are often browsers (Chrome, Edge, Safari), but they can be any type of program or device. **Servers** are most often computers in the cloud.
+
+- The World Wide Web, often referred to as the Web, is an information space where documents and resources are identified by Uniform Resource Locators (URLs) and accessed via the Internet. It is built on top of the Internet and allows users to navigate between interconnected webpages using hyperlinks.
+- The Web relies on various protocols, such as HTTP (Hypertext Transfer Protocol) and HTTPS (HTTP Secure), for communication between web clients (browsers) and servers. HTTP is used for transferring hypertext documents, while HTTPS provides secure communication via encryption using SSL/TLS protocols.
+- Web technologies, such as HTML (Hypertext Markup Language), CSS (Cascading Style Sheets), and JavaScript, are used to create and design webpages, enabling rich and interactive user experiences.
+  - [Introductory HTTP - Beginner-friendly book on HTTP](https://launchschool.com/books/http)
+  - [How HTTPS works](https://howhttps.works/)
+  - [What is HTTP](https://www.w3schools.com/whatis/whatis_http.asp)
+  - [The Internet: HTTP & HTML](https://youtu.be/kBXQZMmiA4s)
+  - [HTTP](https://webapps-for-beginners.rubymonstas.org/http.html)
+  - [Alex Xu - How does HTTPS work?
+](https://www.linkedin.com/feed/update/urn:li:activity:6927644080734674947/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6927644080734674947%29)
+
 
 
 ## Net Practice Resources
