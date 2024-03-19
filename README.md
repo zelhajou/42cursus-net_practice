@@ -258,6 +258,20 @@ A web browser is a software application that enables a user to access and displa
 
 - [MIT 6.858 Computer Systems Security, Fall 2014](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
+### Firewalls:
+
+### Virtual Private Networks (VPNs):
+
+### Intrusion Detection/Prevention Systems (IDS/IPS):
+
+### Authentication Methods:
+
+### Security Protocols (SSL/TLS, IPsec):
+
+- Security protocols, such as SSL/TLS and IPsec, provide secure communication over the internet by encrypting data transmissions and verifying the authenticity of communication endpoints.
+- SSL (Secure Sockets Layer) and its successor, TLS (Transport Layer Security), are cryptographic protocols used to secure communication between clients (such as web browsers) and servers. They encrypt data transmissions and provide authentication using digital certificates.
+- IPsec (Internet Protocol Security) is a suite of protocols used to secure IP communications at the network layer. It provides encryption, authentication, and integrity protection for IP packets, ensuring secure transmission between network devices.
+
 ### Web Application Security
 ##### OWASP
 OWASP or Open Web Application Security Project is an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security.
