@@ -225,6 +225,19 @@ A web browser is a software application that enables a user to access and displa
 - [vasanthk/how-web-works](https://github.com/vasanthk/how-web-works)
 - [Anatomy of a URL](https://doepud.co.uk/anatomy-of-a-url)
 
+## Network Security
+
+### Cryptography:
+- Cryptography is the practice of securing communication and data by converting it into a form that is unreadable without the proper decryption key. It involves techniques such as encryption, decryption, hashing, and digital signatures to protect data confidentiality, integrity, and authenticity.
+- Encryption algorithms, such as AES (Advanced Encryption Standard), RSA (Rivest-Shamir-Adleman), and ECC (Elliptic Curve Cryptography), are used to encrypt plaintext data into ciphertext, rendering it unintelligible to unauthorized users.
+- Hashing algorithms, such as SHA-256 (Secure Hash Algorithm 256-bit), generate fixed-size hash values from input data, providing data integrity and authenticity verification. Hash functions are commonly used to store passwords securely and verify file integrity.
+  - [Public-key cryptography - Wikipedia](https://en.wikipedia.org/wiki/Public-key_cryptography)
+  - [Public Key Cryptography - Computerphile](https://www.youtube.com/watch?v=GSIDS_lvRv4)
+  - [Public Key Cryptography: RSA Encryption Algorithm](https://www.youtube.com/watch?v=wXB-V_Keiu8)
+  - [Encoding, Encryption and Hashing — Whats the Difference?](https://www.youtube.com/watch?v=-bAnBzvMLig)
+
+
+
 ## Net Practice Resources
 - [Guide to NetPractice](https://github.com/lpaube/NetPractice?tab=readme-ov-file)
 - [NetPractice](https://42-cursus.gitbook.io/guide/rank-04/netpractice)
