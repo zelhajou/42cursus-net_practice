@@ -235,7 +235,21 @@ A web browser is a software application that enables a user to access and displa
   - [Public Key Cryptography - Computerphile](https://www.youtube.com/watch?v=GSIDS_lvRv4)
   - [Public Key Cryptography: RSA Encryption Algorithm](https://www.youtube.com/watch?v=wXB-V_Keiu8)
   - [Encoding, Encryption and Hashing — Whats the Difference?](https://www.youtube.com/watch?v=-bAnBzvMLig)
+  - [Hashing Algorithms and Security - Computerphile](https://www.youtube.com/watch?v=b4b8ktEV4Bg)
+  - [Top Hashing Algorithms In Cryptography | MD5 and SHA 256](https://www.youtube.com/watch?v=Plp4F3ZfC7A)
+  - [Algorithms Expalined | Simplilearn](https://www.youtube.com/watch?v=Plp4F3ZfC7A)
+  - [SHA: Secure Hashing Algorithm - Computerphile](https://www.youtube.com/watch?v=DMtFhACPnTY)
 
+- [MIT 6.858 Computer Systems Security, Fall 2014](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
+
+### Web Application Security
+##### OWASP
+OWASP or Open Web Application Security Project is an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security.
+
+Wikipedia - OWASP
+OWASP Web Application Security Testing Checklist
+OWASP Top 10 Security Risks
+OWASP Cheatsheets
 
 
 ## Net Practice Resources
