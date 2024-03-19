@@ -12,6 +12,7 @@ At its core, networking involves exchanging data between devices over a communic
   - [Fireship - Computer Networking in 100 Seconds](https://youtu.be/keeqnciDVOo) 📹
   - [NetworkChuck -  What is a Network?](https://youtu.be/S7MNX_UD7vY?list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P) 📹
   - [Crash Course - Computer Networks](https://youtu.be/3QhU9jd03a0) 📹
+  - [How Computers Communicate in a Network | Google IT Support Certificate](https://youtu.be/Z_hU2zm4_S8)
 
 ### Key Components of Networking:
 1. **Devices**: Networking involves various types of devices, including computers, routers, switches, modems, access points, and servers. These devices serve different functions within a network and are interconnected to facilitate communication and data exchange.
@@ -128,6 +129,7 @@ IPv6 allows for a mind-boggling number of unique addresses. the exact figure is 
   - [HTTP/3 From A To Z: Core Concepts](https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/)
   - [HTTP/1 to HTTP/2 to HTTP/3](https://www.youtube.com/watch?v=a-sBfyiXysI)
   - [HTTP Crash Course & Exploration](https://www.youtube.com/watch?v=iYM2zFP3Zn0)
+  - [ByteByteGo - SSL, TLS, HTTPS Explained](https://youtu.be/j9QmMEWmcfo)
 - **File Transfer Protocol (FTP)**: FTP is a protocol used for transferring files between a client and a server over a network. It supports various operations such as file upload, download, renaming, and deletion. FTP operates on TCP and uses port 21 for control connections and port 20 for data connections.
 - **Domain Name System (DNS)**: DNS is a distributed naming system that translates domain names into IP addresses and vice versa. It enables users to access websites using human-readable domain names instead of numerical IP addresses. DNS operates on both UDP (for queries) and TCP (for zone transfers).
   - [What is DNS?](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/)
@@ -160,7 +162,14 @@ The Internet is a global network of computers connected which communicate throug
 - [How does the Internet work?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work)
 - [How Does The Internet Work? - BBC Click](https://youtu.be/eHp1l73ztB8)
 - [How does the INTERNET work? | ICT #2](https://youtu.be/x3c1ih2NJEg)
-
+- [How does the Internet Work?](https://cs.fyi/guide/how-does-internet-work)
+- [The Internet Explained](https://www.vox.com/2014/6/16/18076282/the-internet)
+- [How Does the Internet Work?](http://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm)
+- [Introduction to Internet](https://roadmap.sh/guides/what-is-internet)
+- [How does the Internet work?](https://www.youtube.com/watch?v=x3c1ih2NJEg)
+- [How the Internet Works in 5 Minutes](https://www.youtube.com/watch?v=7_LPdttKXPc)
+- [How does the internet work? (Full Course)](https://www.youtube.com/watch?v=zN8YNNHcaZc)
+  
 ![how-the-internet-works](https://github.com/zelhajou/42-net_practice/assets/39954629/c9c25a14-9d4c-4012-80c4-5ac7c254db06)
 
 ![EgBWI0GWAAAeYhA](https://github.com/zelhajou/42-net_practice/assets/39954629/0a971f75-18e8-4798-b6a5-4d46c0614fd8)
@@ -216,6 +225,9 @@ A web browser is a software application that enables a user to access and displa
 - [How does web browsers work?](https://medium.com/@monica1109/how-does-web-browsers-work-c95ad628a509)
 - [How the Web works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
 - [How Browsers Work: Behind the scenes of modern web browsers - HTML5 Rocks](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
+- [How Browsers Work](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
+- [Role of Rendering Engine in Browsers](https://www.browserstack.com/guide/browser-rendering-engine)
+- [Populating the Page: How Browsers Work](https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work)
 
 **Headless Browsers**: Headless browsers is a web browsers **without** a graphical user interface that can be controlled from a command line interface programmatically for web page automation (e.g., functional testing, scraping, unit testing, etc.). Think of headless browsers as a browser that you can run programmatically from the command line that can retrieve and traverse web page code.
 
