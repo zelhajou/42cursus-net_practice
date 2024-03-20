@@ -96,7 +96,9 @@ Networking encompasses a wide range of concepts and principles that form the fou
 - **Wireless Networking**: Wireless technologies enable communication between devices without the need for physical cables. Common wireless standards include Wi-Fi (802.11), Bluetooth, and cellular networks (e.g., 3G, 4G, 5G).
 - **Ethernet Technologies**: Ethernet is a widely used networking technology that defines standards for data transmission over wired LANs. Variants include Ethernet, Fast Ethernet, Gigabit Ethernet, and 10 Gigabit Ethernet.
 - **Data Link Layer**: The data link layer is responsible for transferring data between adjacent network nodes. It includes functions such as framing, addressing (MAC addresses), error detection, and flow control.
+  - [أنواع الكاستنج والفرق بين ال broadcast وال multicast وال unicast وال half-duplex وال full-duplex](https://youtu.be/GCHcGimdA3g?list=PL8s4OGp0649_e_Wbz5MlBgW5rBW-9hD0c)
 - **Network Layer**: The network layer handles routing and forwarding of data packets across interconnected networks. It includes protocols such as IP (Internet Protocol), ICMP (Internet Control Message Protocol), and ARP (Address Resolution Protocol).
+  - [أنواع الكاستنج والفرق بين ال broadcast وال multicast وال unicast وال half-duplex وال full-duplex](https://youtu.be/GCHcGimdA3g?list=PL8s4OGp0649_e_Wbz5MlBgW5rBW-9hD0c)
 
 ## Internet Protocol (IP)
 
