@@ -96,9 +96,9 @@ Networking encompasses a wide range of concepts and principles that form the fou
 - **Wireless Networking**: Wireless technologies enable communication between devices without the need for physical cables. Common wireless standards include Wi-Fi (802.11), Bluetooth, and cellular networks (e.g., 3G, 4G, 5G).
 - **Ethernet Technologies**: Ethernet is a widely used networking technology that defines standards for data transmission over wired LANs. Variants include Ethernet, Fast Ethernet, Gigabit Ethernet, and 10 Gigabit Ethernet.
 - **Data Link Layer**: The data link layer is responsible for transferring data between adjacent network nodes. It includes functions such as framing, addressing (MAC addresses), error detection, and flow control.
-  - [أنواع الكاستنج والفرق بين ال broadcast وال multicast وال unicast وال half-duplex وال full-duplex](https://youtu.be/GCHcGimdA3g?list=PL8s4OGp0649_e_Wbz5MlBgW5rBW-9hD0c)
+  - [Catsing types and the difference between broadcast وال multicast وال unicast وال half-duplex وال full-duplex](https://youtu.be/GCHcGimdA3g?list=PL8s4OGp0649_e_Wbz5MlBgW5rBW-9hD0c)
 - **Network Layer**: The network layer handles routing and forwarding of data packets across interconnected networks. It includes protocols such as IP (Internet Protocol), ICMP (Internet Control Message Protocol), and ARP (Address Resolution Protocol).
-  - [أنواع الكاستنج والفرق بين ال broadcast وال multicast وال unicast وال half-duplex وال full-duplex](https://youtu.be/GCHcGimdA3g?list=PL8s4OGp0649_e_Wbz5MlBgW5rBW-9hD0c)
+  - [Catsing types and the difference between broadcast وال multicast وال unicast وال half-duplex وال full-duplex](https://youtu.be/GCHcGimdA3g?list=PL8s4OGp0649_e_Wbz5MlBgW5rBW-9hD0c)
 
 ## Internet Protocol (IP)
 
@@ -154,7 +154,44 @@ IPv6 allows for a mind-boggling number of unique addresses. the exact figure is 
 - **Dynamic Host Configuration Protocol (DHCP)**: DHCP is a protocol used for dynamically assigning IP addresses to network devices. It simplifies network configuration by automatically allocating IP addresses, subnet masks, default gateways, and other parameters to devices when they connect to a network.
 - **Network Time Protocol (NTP)**: NTP is a protocol used for synchronizing the clocks of networked devices. It ensures accurate timekeeping across distributed systems by synchronizing devices with a reference time source.
 
-## Internet
+## Types of Networks
+
+- [IT Dos - LAN, WAN, PAN, CAN, MAN, SAN](https://www.youtube.com/watch?v=sPevWU0O7bI&list=PL8s4OGp0649_e_Wbz5MlBgW5rBW-9hD0c&index=5&pp=iAQB)[AR] 📹
+- [PowerCert Animated Videos - Network Types: LAN, WAN, PAN, CAN, MAN, SAN, WLAN](https://youtu.be/4_zSIXb7tLQ)
+
+### Personal Area Network (PAN):
+- A PAN is the smallest type of network, typically covering a very small area such as a person's workspace or personal devices.
+- It enables communication between personal devices like smartphones, tablets, laptops, and wearable technology.
+- Common PAN technologies include Bluetooth, Zigbee, and Near Field Communication (NFC).
+
+### Local Area Network (LAN):
+- A LAN connects devices within a limited geographic area such as a home, office, or campus.
+- It enables resource sharing, such as file servers, printers, and internet access, among connected devices.
+- LAN technologies include Ethernet, Wi-Fi, and Token Ring.
+
+### Metropolitan Area Network (MAN):
+- A MAN spans a larger geographic area than a LAN but smaller than a WAN, typically covering a city or metropolitan area.
+- It connects multiple LANs and enables high-speed data transmission between them.
+- MANs are often used by businesses, educational institutions, and government agencies for interconnecting local networks.
+
+### Wide Area Network (WAN):
+- A WAN covers a broad geographic area, such as across cities, countries, or continents.
+- It connects multiple LANs, MANs, or other networks, enabling long-distance communication and data exchange.
+- WAN technologies include leased lines, MPLS (Multiprotocol Label Switching), and the internet.
+
+### Campus Area Network (CAN):
+- A CAN is a type of network that interconnects multiple buildings within a university campus, corporate campus, or similar environment.
+- It provides high-speed communication between different departments, offices, or facilities within the campus.
+- CANs often use fiber-optic cables or wireless technologies for connectivity.
+
+### Storage Area Network (SAN):
+- A SAN is a specialized network architecture designed to provide high-speed access to storage resources, such as disk arrays and tape libraries.
+- It allows multiple servers to access shared storage devices over a dedicated network, improving storage efficiency and performance.
+- SANs typically use Fibre Channel or iSCSI (Internet Small Computer System Interface) protocols.
+
+
+
+### Internet
 
 The Internet is the wider network that allows computer networks around the world run by companies, governments, universities, and other organizations to talk to one another. The result is a mass of cables, computers, data centers, routers, servers, repeaters, satellites, and wifi towers that allow digital information to travel around the world.
  - [Submarine Cable Map](https://www.submarinecablemap.com/#/)
@@ -163,7 +200,7 @@ The Internet is the wider network that allows computer networks around the world
 
 The Internet is a global network of computers connected which communicate through a standardized set of protocols each computer connected to the Internet must have a unique address. Internet addresses are in the form nnn.nnn.nnn.nnn where nnn must be a number from 0-255 this address is known as an **IP address**
 
-### How Does The Internet Work?
+#### How Does The Internet Work?
 
 - [How does the Internet work?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work)
 - [How Does The Internet Work? - BBC Click](https://youtu.be/eHp1l73ztB8)
@@ -184,7 +221,7 @@ The Internet is a global network of computers connected which communicate throug
   - [A Packet's Tale. How Does the Internet Work?
 ](https://youtu.be/ewrBalT_eBM)
 
-### Internet Technologies
+#### Internet Technologies
 
 **1. World Wide Web (WWW):** The World Wide Web is about communication between web **clients** and web **servers**. **Clients** are often browsers (Chrome, Edge, Safari), but they can be any type of program or device. **Servers** are most often computers in the cloud.
 
@@ -237,7 +274,7 @@ A web browser is a software application that enables a user to access and displa
 
 **Headless Browsers**: Headless browsers is a web browsers **without** a graphical user interface that can be controlled from a command line interface programmatically for web page automation (e.g., functional testing, scraping, unit testing, etc.). Think of headless browsers as a browser that you can run programmatically from the command line that can retrieve and traverse web page code.
 
-### What happens when you go to google.com?
+#### What happens when you go to google.com?
 
 - [alex/what-happens-when](https://github.com/alex/what-happens-when#browser)
 - [vasanthk/how-web-works](https://github.com/vasanthk/how-web-works)
