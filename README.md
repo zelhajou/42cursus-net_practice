@@ -12,7 +12,8 @@ At its core, networking involves exchanging data between devices over a communic
   - [Fireship - Computer Networking in 100 Seconds](https://youtu.be/keeqnciDVOo) 📹
   - [NetworkChuck -  What is a Network?](https://youtu.be/S7MNX_UD7vY?list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P) 📹
   - [Crash Course - Computer Networks](https://youtu.be/3QhU9jd03a0) 📹
-  - [How Computers Communicate in a Network | Google IT Support Certificate](https://youtu.be/Z_hU2zm4_S8)
+  - [How Computers Communicate in a Network | Google IT Support Certificate](https://youtu.be/Z_hU2zm4_S8) 📹
+  - [IT Dose - Introduction to Networks and CCNA](https://youtu.be/q6tUCEUqxTQ?list=PL8s4OGp0649_e_Wbz5MlBgW5rBW-9hD0c)[AR] 📹
 
 ### Key Components of Networking:
 1. **Devices**: Networking involves various types of devices, including computers, routers, switches, modems, access points, and servers. These devices serve different functions within a network and are interconnected to facilitate communication and data exchange.
@@ -20,6 +21,8 @@ At its core, networking involves exchanging data between devices over a communic
 3. **Topologies**: Network topology refers to the physical or logical arrangement of devices and connections within a network. Common network topologies include bus, star, ring, and mesh configurations, each with its advantages and limitations in terms of scalability, fault tolerance, and performance.
 4. **Addressing**: Network addressing involves assigning unique identifiers to devices on a network to facilitate communication. IP addresses are used to identify devices within a network, while MAC addresses are used to identify devices at the data link layer.
 5. **Security**: Network security is a critical aspect of networking that involves protecting data, devices, and infrastructure from unauthorized access, attacks, and threats. Security measures include encryption, authentication, firewalls, intrusion detection systems, and security protocols.
+
+  - [Network components and types of cables](https://youtu.be/2XJTR6MLX3U?list=PL8s4OGp0649_e_Wbz5MlBgW5rBW-9hD0c)[AR] 📹
 
 ### Evolution of Networking:
 Networking has evolved significantly over the years, driven by technological advancements and changing user demands. From early local area networks (LANs) and wide area networks (WANs) to modern cloud computing and mobile networking technologies, the landscape of networking continues to evolve rapidly.
