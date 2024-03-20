@@ -38,14 +38,32 @@ In the digital age, networking has become synonymous with communication, collabo
 Networking encompasses a wide range of concepts and principles that form the foundation of communication and data exchange in computer networks.
 
 ### 1. Networking Models (OSI, TCP/IP):
-- **OSI Model (Open Systems Interconnection)**: The OSI model is a conceptual framework that standardizes the functions of a telecommunication or computing system into seven abstraction layers. Each layer serves a specific purpose, such as physical transmission, data link connection, network addressing, and application services. The OSI model provides a structured approach to understanding and implementing network protocols and services.
-  - [Cloudflare - What is the OSI model](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/)
-  - [Geeksforgeeks - Layers of OSI model](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/)
-  - [What is OSI Model | Real World Examples](https://youtu.be/0y6FtKsg6J4) 📹
-  - [OSI Layers](https://youtu.be/A31bxOyj5mk)[AR] 📹
-- **TCP/IP Model (Transmission Control Protocol/Internet Protocol)**: The TCP/IP model is a simplified version of the OSI model, commonly used in modern networking environments, especially on the internet. It consists of four layers: Network Interface, Internet, Transport, and Application. The TCP/IP model defines the protocols and services used for communication between devices on the internet, including IP addressing, routing, TCP, UDP, and application-layer protocols such as HTTP, FTP, and DNS.
+#### OSI Model (Open Systems Interconnection):
+The OSI model is a conceptual framework that standardizes the functions of a telecommunication or computing system into seven abstraction layers. It was developed by the International Organization for Standardization (ISO) in the late 1970s.
+
+The OSI model serves as a guideline for designing and understanding network communication systems. By breaking down network communication into layers, it allows for modular design, interoperability, and easier troubleshooting.
+
+**Layers:**
+1. **Physical Layer (Layer 1)**: The physical layer deals with the transmission of raw data bits over a physical medium, such as copper cables, fiber optics, or wireless transmission.
+2. **Data Link Layer (Layer 2)**: The data link layer provides error detection and correction mechanisms, as well as controls access to the physical medium. It is divided into two sublayers: the Logical Link Control (LLC) sublayer and the Media Access Control (MAC) sublayer.
+3. **Network Layer (Layer 3)**: The network layer handles the routing and forwarding of data packets between different networks. It provides logical addressing, packet switching, and routing functions. The most common protocol at this layer is the Internet Protocol (IP). Routers operate at this layer.
+4. **Transport Layer (Layer 4)**: The transport layer is responsible for end-to-end communication between devices across the network. It ensures reliable and orderly delivery of data packets. The two primary protocols at this layer are Transmission Control Protocol (TCP) and User Datagram Protocol (UDP).
+5. **Session Layer (Layer 5)**: The session layer establishes, maintains, and terminates communication sessions between applications. It handles synchronization, checkpointing, and recovery of data exchange. Examples of session layer protocols include NetBIOS and PPTP (Point-to-Point Tunneling Protocol).
+6. **Presentation Layer (Layer 6)**: The presentation layer deals with the syntax and semantics of data exchanged between applications. It translates data into a format that the application layer can understand. This layer handles tasks such as data compression, encryption, and formatting.
+7. **Application Layer (Layer 7)**: The application layer provides network services directly to end-users and applications. It includes protocols for various applications such as HTTP (Hypertext Transfer Protocol), FTP (File Transfer Protocol), SMTP (Simple Mail Transfer Protocol), and DNS (Domain Name System).
+    - [Cloudflare - What is the OSI model](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/)
+    - [Geeksforgeeks - Layers of OSI model](https://www.geeksforgeeks.org/open-systems-interconnection-model-osi/)
+    - [What is OSI Model | Real World Examples](https://youtu.be/0y6FtKsg6J4) 📹
+    - [OSI Layers](https://youtu.be/A31bxOyj5mk)[AR] 📹
+
+#### TCP/IP Model (Transmission Control Protocol/Internet Protocol):
+The TCP/IP model is a simplified version of the OSI model, commonly used in modern networking environments, especially on the internet. It consists of four layers: Network Interface, Internet, Transport, and Application. The TCP/IP model defines the protocols and services used for communication between devices on the internet, including IP addressing, routing, TCP, UDP, and application-layer protocols such as HTTP, FTP, and DNS.
   - [Geeksforgeeks - TCP/IP model](https://www.geeksforgeeks.org/tcp-ip-model/)
-  - [NetworkChuck - What is TCP/IP and OSI?](https://www.youtube.com/watch?v=CRdL1PcherM&list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P&index=4&pp=iAQB) 
+  - [NetworkChuck - What is TCP/IP and OSI?](https://www.youtube.com/watch?v=CRdL1PcherM&list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P&index=4&pp=iAQB)
+
+![OSI-vs -TCPIP-models](https://github.com/zelhajou/42-net_practice/assets/39954629/bc3413a3-de08-4db6-9feb-ca6c18913450)
+
+
 ### 2. Data Transmission
 - **Analog vs. Digital**: Data transmission can occur in analog or digital formats. Analog transmission involves continuous signals that vary in amplitude or frequency, while digital transmission involves discrete signals represented as binary digits (0s and 1s). Digital transmission is more resilient to noise and distortion, making it the preferred method for most modern communication systems.
    - [Khan Academy - Digital and analog information
@@ -115,8 +133,6 @@ Internet protocol addresses are numbers that computers use to identify each othe
 The current internet standard known as IPv4 only allows for about 4 billion up addresses.
 This was considered a very big number in the 1970s, but today, the supply of IPv4 addresses is nearly exhausted. so internet engineers have developed a new standard called IPv6.
 IPv6 allows for a mind-boggling number of unique addresses. the exact figure is 39 digits long ensuring that the world will never be aging run out. if you connect to the internet through an Internet service provider (ISP) you are usually assigned a temporary IP address for the duration of your diet-in session
-
-
 
 ## Transport Layer
 - **Transmission Control Protocol (TCP)**: TCP is a reliable, connection-oriented protocol used for transmitting data packets over networks. It provides features such as error detection, flow control, congestion control, and reliable data delivery through mechanisms like acknowledgment, sequencing, and retransmission.
