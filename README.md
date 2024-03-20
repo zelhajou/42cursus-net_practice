@@ -132,10 +132,7 @@ IPv6 allows for a mind-boggling number of unique addresses. the exact figure is 
   - [ByteByteGo - SSL, TLS, HTTPS Explained](https://youtu.be/j9QmMEWmcfo)
 - **File Transfer Protocol (FTP)**: FTP is a protocol used for transferring files between a client and a server over a network. It supports various operations such as file upload, download, renaming, and deletion. FTP operates on TCP and uses port 21 for control connections and port 20 for data connections.
 - **Domain Name System (DNS)**: DNS is a distributed naming system that translates domain names into IP addresses and vice versa. It enables users to access websites using human-readable domain names instead of numerical IP addresses. DNS operates on both UDP (for queries) and TCP (for zone transfers).
-
 ![z9rwm5A](https://github.com/zelhajou/42-net_practice/assets/39954629/4d018fa7-64be-41a3-a719-e44f52ba1fd1)
-
-
   - [What is DNS?](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/)
   - [How DNS works (comic)](https://howdns.works/)
   - [DNS and How does it Work?](https://www.youtube.com/watch?v=Wj0od2ag5sk)
