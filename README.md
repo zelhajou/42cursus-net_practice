@@ -24,6 +24,7 @@ At its core, networking involves exchanging data between devices over a communic
 
   - [Network components and types of cables](https://youtu.be/2XJTR6MLX3U?list=PL8s4OGp0649_e_Wbz5MlBgW5rBW-9hD0c)[AR] 📹
 
+<!--
 ### Evolution of Networking:
 Networking has evolved significantly over the years, driven by technological advancements and changing user demands. From early local area networks (LANs) and wide area networks (WANs) to modern cloud computing and mobile networking technologies, the landscape of networking continues to evolve rapidly.
 
@@ -33,7 +34,7 @@ Emerging technologies such as software-defined networking (SDN), network functio
 Networking is essential for businesses, organizations, and individuals alike, enabling collaboration, innovation, and connectivity on a global scale. It facilitates access to information, resources, and services, driving productivity, efficiency, and growth in various industries and sectors.
 
 In the digital age, networking has become synonymous with communication, collaboration, and connectivity. Whether it's connecting people through social media, enabling remote work and learning, or powering e-commerce and online services, networking is the backbone of our interconnected world.
-
+-->
 ## Network Basics
 Networking encompasses a wide range of concepts and principles that form the foundation of communication and data exchange in computer networks.
 
