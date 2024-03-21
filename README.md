@@ -9,11 +9,11 @@ Networking is a foundational concept in the realm of computer science and techno
 
 At its core, networking involves exchanging data between devices over a communication medium, such as cables, wireless signals, or optical fibers. This exchange of data enables users to access websites, send emails, stream videos, transfer files, and perform countless other tasks that rely on network connectivity.
 
-  - [Fireship - Computer Networking in 100 Seconds](https://youtu.be/keeqnciDVOo) 📹
-  - [NetworkChuck -  What is a Network?](https://youtu.be/S7MNX_UD7vY?list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P) 📹
-  - [Crash Course - Computer Networks](https://youtu.be/3QhU9jd03a0) 📹
-  - [How Computers Communicate in a Network | Google IT Support Certificate](https://youtu.be/Z_hU2zm4_S8) 📹
-  - [IT Dose - Introduction to Networks and CCNA](https://youtu.be/q6tUCEUqxTQ?list=PL8s4OGp0649_e_Wbz5MlBgW5rBW-9hD0c)[AR] 📹
+- [Fireship - Computer Networking in 100 Seconds](https://youtu.be/keeqnciDVOo) 📹
+- [NetworkChuck -  What is a Network?](https://youtu.be/S7MNX_UD7vY?list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P) 📹
+- [Crash Course - Computer Networks](https://youtu.be/3QhU9jd03a0) 📹
+- [How Computers Communicate in a Network | Google IT Support Certificate](https://youtu.be/Z_hU2zm4_S8) 📹
+- [IT Dose - Introduction to Networks and CCNA](https://youtu.be/q6tUCEUqxTQ?list=PL8s4OGp0649_e_Wbz5MlBgW5rBW-9hD0c)[AR] 📹
 
 ### Key Components of Networking:
 1. **Devices**: Networking involves various types of devices, including computers, routers, switches, modems, access points, and servers. These devices serve different functions within a network and are interconnected to facilitate communication and data exchange.
@@ -22,7 +22,7 @@ At its core, networking involves exchanging data between devices over a communic
 4. **Addressing**: Network addressing involves assigning unique identifiers to devices on a network to facilitate communication. IP addresses are used to identify devices within a network, while MAC addresses are used to identify devices at the data link layer.
 5. **Security**: Network security is a critical aspect of networking that involves protecting data, devices, and infrastructure from unauthorized access, attacks, and threats. Security measures include encryption, authentication, firewalls, intrusion detection systems, and security protocols.
 
-  - [Network components and types of cables](https://youtu.be/2XJTR6MLX3U?list=PL8s4OGp0649_e_Wbz5MlBgW5rBW-9hD0c)[AR] 📹
+- [Network components and types of cables](https://youtu.be/2XJTR6MLX3U?list=PL8s4OGp0649_e_Wbz5MlBgW5rBW-9hD0c)[AR] 📹
 
 <!--
 ### Evolution of Networking:
@@ -52,18 +52,18 @@ The OSI model serves as a guideline for designing and understanding network comm
 5. **Session Layer (Layer 5)**: The session layer establishes, maintains, and terminates communication sessions between applications. It handles synchronization, checkpointing, and recovery of data exchange. Examples of session layer protocols include NetBIOS and PPTP (Point-to-Point Tunneling Protocol).
 6. **Presentation Layer (Layer 6)**: The presentation layer deals with the syntax and semantics of data exchanged between applications. It translates data into a format that the application layer can understand. This layer handles tasks such as data compression, encryption, and formatting.
 7. **Application Layer (Layer 7)**: The application layer provides network services directly to end-users and applications. It includes protocols for various applications such as HTTP (Hypertext Transfer Protocol), FTP (File Transfer Protocol), SMTP (Simple Mail Transfer Protocol), and DNS (Domain Name System).
-    - [Cloudflare - What is the OSI model](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/)
-    - [Geeksforgeeks - Layers of OSI model](https://www.geeksforgeeks.org/open-systems-interconnection-model-osi/)
-    - [What is OSI Model | Real World Examples](https://youtu.be/0y6FtKsg6J4) 📹
-    - [OSI Layers](https://youtu.be/A31bxOyj5mk)[AR] 📹
+
+- [Cloudflare - What is the OSI model](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/)
+- [Geeksforgeeks - Layers of OSI model](https://www.geeksforgeeks.org/open-systems-interconnection-model-osi/)
+- [What is OSI Model | Real World Examples](https://youtu.be/0y6FtKsg6J4) 📹
+- [OSI Layers](https://youtu.be/A31bxOyj5mk)[AR] 📹
 
 #### TCP/IP Model (Transmission Control Protocol/Internet Protocol):
 The TCP/IP model is a simplified version of the OSI model, commonly used in modern networking environments, especially on the internet. It consists of four layers: Network Interface, Internet, Transport, and Application. The TCP/IP model defines the protocols and services used for communication between devices on the internet, including IP addressing, routing, TCP, UDP, and application-layer protocols such as HTTP, FTP, and DNS.
-  - [Geeksforgeeks - TCP/IP model](https://www.geeksforgeeks.org/tcp-ip-model/)
-  - [NetworkChuck - What is TCP/IP and OSI?](https://www.youtube.com/watch?v=CRdL1PcherM&list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P&index=4&pp=iAQB)
+- [Geeksforgeeks - TCP/IP model](https://www.geeksforgeeks.org/tcp-ip-model/)
+- [NetworkChuck - What is TCP/IP and OSI?](https://www.youtube.com/watch?v=CRdL1PcherM&list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P&index=4&pp=iAQB)
 
 ![OSI-vs -TCPIP-models](https://github.com/zelhajou/42-net_practice/assets/39954629/bc3413a3-de08-4db6-9feb-ca6c18913450)
-
 
 ### 2. Data Transmission
 - **Analog vs. Digital**: Data transmission can occur in analog or digital formats. Analog transmission involves continuous signals that vary in amplitude or frequency, while digital transmission involves discrete signals represented as binary digits (0s and 1s). Digital transmission is more resilient to noise and distortion, making it the preferred method for most modern communication systems.
@@ -80,12 +80,12 @@ The TCP/IP model is a simplified version of the OSI model, commonly used in mode
 - **Hubs**: Hubs are network devices that connect multiple devices within a LAN. Unlike switches, hubs operate at the physical layer of the OSI model and broadcast data packets to all connected devices. This broadcasting can lead to network congestion and reduced performance, making hubs less common in modern network environments.
 - **Modems**: Modems (modulator-demodulator) are devices that modulate digital data signals into analog signals for transmission over analog communication channels, such as telephone lines, and demodulate analog signals back into digital data signals for reception. Modems are commonly used to connect devices to the internet via dial-up, DSL, cable, or fiber-optic connections.
 
-  - [Geeksforgeeks - Network Devices (Hub, Repeater, Bridge, Switch, Router, Gateways and Brouter)](https://www.geeksforgeeks.org/network-devices-hub-repeater-bridge-switch-router-gateways/)
-  - [Hub vs Switch vs Router](https://youtu.be/_ifRgCb8o60)[AR]📹
-  - [NETWORK DEVICES الفرق بين أجهزة الشبكة](https://www.youtube.com/watch?v=X2LF8rzWijk&pp=ygUWbmV0d29yayBkZXZpY2VzINi02LHYrQ%3D%3D)[AR]📹
-  - [Hub, Switch, & Router Explained - What's the difference?](https://youtu.be/1z0ULvg_pW8)📹
-  - [Modem vs Router - What's the difference?](https://www.youtube.com/watch?v=Mad4kQ5835Y)📹
-  - [Layer 2 vs Layer 3 Switches](https://www.youtube.com/watch?v=bdNS0K4Bt8U)📹
+- [Geeksforgeeks - Network Devices (Hub, Repeater, Bridge, Switch, Router, Gateways and Brouter)](https://www.geeksforgeeks.org/network-devices-hub-repeater-bridge-switch-router-gateways/)
+- [Hub vs Switch vs Router](https://youtu.be/_ifRgCb8o60)[AR]📹
+- [NETWORK DEVICES الفرق بين أجهزة الشبكة](https://www.youtube.com/watch?v=X2LF8rzWijk&pp=ygUWbmV0d29yayBkZXZpY2VzINi02LHYrQ%3D%3D)[AR]📹
+- [Hub, Switch, & Router Explained - What's the difference?](https://youtu.be/1z0ULvg_pW8)📹
+- [Modem vs Router - What's the difference?](https://www.youtube.com/watch?v=Mad4kQ5835Y)📹
+- [Layer 2 vs Layer 3 Switches](https://www.youtube.com/watch?v=bdNS0K4Bt8U)📹
 
 ### 4. Network Protocols
 
@@ -106,8 +106,8 @@ The TCP/IP model is a simplified version of the OSI model, commonly used in mode
 - **Ring Topology**: In a ring topology, devices are connected in a closed-loop configuration. Data circulates around the ring, with each device receiving and forwarding data packets to the next device until they reach their destination.
 - **Mesh Topology**: In a mesh topology, devices are interconnected with multiple redundant paths. This redundancy provides fault tolerance and ensures reliable communication, but it can be costly and complex to implement.
 
-  - [Network Topologies (Star, Bus, Ring, Mesh, Ad hoc, Infrastructure, & Wireless Mesh Topology)](https://www.youtube.com/watch?v=zbqrNg4C98U)📹
-  - [IT Dose - Network Topologies Bus - Ring - Mesh - Star](https://youtu.be/cLuBLwa3XlI)[AR]📹
+- [Network Topologies (Star, Bus, Ring, Mesh, Ad hoc, Infrastructure, & Wireless Mesh Topology)](https://www.youtube.com/watch?v=zbqrNg4C98U)📹
+- [IT Dose - Network Topologies Bus - Ring - Mesh - Star](https://youtu.be/cLuBLwa3XlI)[AR]📹
 
 ## Network Communication
 - **Local Area Networks (LANs)**: LANs are networks that connect devices within a limited geographic area, such as a home, office, or campus. They typically use Ethernet or Wi-Fi technology and are often used for sharing resources such as files, printers, and internet access.
@@ -205,8 +205,6 @@ IPv6 allows for a mind-boggling number of unique addresses. the exact figure is 
 - A SAN is a specialized network architecture designed to provide high-speed access to storage resources, such as disk arrays and tape libraries.
 - It allows multiple servers to access shared storage devices over a dedicated network, improving storage efficiency and performance.
 - SANs typically use Fibre Channel or iSCSI (Internet Small Computer System Interface) protocols.
-
-
 
 ### Internet
 
