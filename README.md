@@ -91,7 +91,6 @@ The TCP/IP model is a simplified version of the OSI model, commonly used in mode
 
 - **TCP (Transmission Control Protocol)**: TCP is a reliable, connection-oriented protocol used for transmitting data packets over networks. It provides mechanisms for establishing and terminating connections, acknowledging received data packets, retransmitting lost packets, and controlling data flow to ensure reliable and orderly communication between devices.
 - **IP (Internet Protocol)**: IP is a network layer protocol responsible for addressing and routing data packets across interconnected networks. It assigns unique IP addresses to devices and uses routing algorithms to determine the best path for packet delivery. IP is the foundation of the internet and is used to transmit data between devices worldwide.
-  - [NetworkChuck - what is an IP Address?](https://www.youtube.com/watch?v=5WfiTHiU4x8) 📹
 - **UDP (User Datagram Protocol)**: UDP is a connectionless, unreliable protocol used for transmitting data packets over networks. Unlike TCP, UDP does not establish a connection before sending data and does not provide error checking, sequencing, or flow control mechanisms. UDP is commonly used for real-time applications such as voice and video streaming, where low latency and high throughput are more important than reliability.
 - **ICMP (Internet Control Message Protocol)**: ICMP is a network layer protocol used for sending control messages and error reporting between devices on IP networks. It includes messages such as echo request/reply (ping), destination unreachable, time exceeded, and parameter problem. ICMP plays a critical role in diagnosing network connectivity issues, troubleshooting routing problems, and monitoring network performance.
 - **ARP (Address Resolution Protocol)**: ARP is a protocol used for mapping IP addresses to MAC addresses on a local network. It enables devices to determine the hardware address of a target device for communication. ARP is essential for transmitting data between devices within the same subnet and is commonly used in Ethernet networks.
@@ -178,11 +177,9 @@ Transmission modes refer to the direction of data transmission between devices i
 
 3. **Full-Duplex**: In full-duplex mode, data can flow in both directions simultaneously. Devices can send and receive data simultaneously, allowing for faster and more efficient communication. Full-duplex communication is commonly used in modern networking technologies, such as Ethernet and Wi-Fi, where devices can both transmit and receive data at the same time without interference.
 
-
-
 ## Internet Protocol (IP)
 
-Internet protocol addresses are numbers that computers use to identify each other on the internet. An ICANN department known as the Internet Assigned Numbers Authority is responsible for distributing IP addresses to ensure that two different organizations don't use the same address
+  - [NetworkChuck - what is an IP Address?](https://www.youtube.com/watch?v=5WfiTHiU4x8) 📹
 
 - **IPv4 Addressing**: IPv4 (Internet Protocol version 4) addresses are numerical identifiers assigned to devices on a network. IPv4 addresses are 32 bits long and are expressed in dotted-decimal notation (e.g., 192.168.1.1).
   - **Subnetting**: Subnetting is the process of dividing a larger network into smaller, more manageable subnetworks or subnets. It involves borrowing bits from the host portion of an IP address to create multiple subnets, each with its own unique range of IP addresses. Subnetting allows network administrators to efficiently allocate IP addresses and manage network resources by organizing devices into logical groups based on their network requirements. Subnet masks are used to identify the network portion and the host portion of an IP address, determining which devices belong to the same subnet and can communicate directly with each other without the need for routing.
@@ -192,9 +189,7 @@ Internet protocol addresses are numbers that computers use to identify each othe
 - **ARP (Address Resolution Protocol)**: ARP is a protocol used for mapping IP addresses to MAC addresses on a local network. It enables devices to determine the hardware address of a target device for communication.
 
 ![ip-adresse-FR-1](https://github.com/zelhajou/42-net_practice/assets/39954629/3c1aa73d-64c6-49b8-8146-902202a83600)
-The current internet standard known as IPv4 only allows for about 4 billion up addresses.
-This was considered a very big number in the 1970s, but today, the supply of IPv4 addresses is nearly exhausted. so internet engineers have developed a new standard called IPv6.
-IPv6 allows for a mind-boggling number of unique addresses. the exact figure is 39 digits long ensuring that the world will never be aging run out. if you connect to the internet through an Internet service provider (ISP) you are usually assigned a temporary IP address for the duration of your diet-in session
+
 
 ## Transport Layer
 - **Transmission Control Protocol (TCP)**: TCP is a reliable, connection-oriented protocol used for transmitting data packets over networks. It provides features such as error detection, flow control, congestion control, and reliable data delivery through mechanisms like acknowledgment, sequencing, and retransmission.
