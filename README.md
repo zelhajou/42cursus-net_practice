@@ -102,9 +102,45 @@ The TCP/IP model is a simplified version of the OSI model, commonly used in mode
 ![5f1086baa37c842a30184650_network-topology-types-diagram](https://github.com/zelhajou/42-net_practice/assets/39954629/b0b8d397-e828-445c-951c-bfcd54eaa207)
 
 - **Bus Topology**: In a bus topology, all devices are connected to a single communication line (bus). Data is transmitted along the bus, and each device receives the data but only processes data addressed to it.
+    <details>
+     <summary>
+        [IMG]
+     </summary>
+      
+   ![Screenshot_26-3-2024_141111_www youtube com](https://github.com/zelhajou/42-net_practice/assets/39954629/8ccf8e67-2b0d-48d6-a558-748d7c6231f7)
+   
+   </details>
+  
 - **Star Topology**: In a star topology, each device is connected to a central hub or switch. Data is transmitted from one device to the hub/switch and then forwarded to the intended recipient.
+    <details>
+     <summary>
+        [IMG]
+     </summary>
+       
+   ![Screenshot_26-3-2024_14294_www youtube com](https://github.com/zelhajou/42-net_practice/assets/39954629/b6e97c6a-41ba-4e6a-b552-97aac13c7972)
+
+   </details>
+
+  
 - **Ring Topology**: In a ring topology, devices are connected in a closed-loop configuration. Data circulates around the ring, with each device receiving and forwarding data packets to the next device until they reach their destination.
+   <details>
+      <summary>
+         [IMG]
+      </summary>
+   
+   ![Screenshot_26-3-2024_141436_www youtube com](https://github.com/zelhajou/42-net_practice/assets/39954629/2f50e97f-c1d8-4f9f-bfc3-286d6d65c352)
+   
+   </details>
+
 - **Mesh Topology**: In a mesh topology, devices are interconnected with multiple redundant paths. This redundancy provides fault tolerance and ensures reliable communication, but it can be costly and complex to implement.
+   <details>
+     <summary>
+        [IMG]
+     </summary>
+      
+  ![Screenshot_26-3-2024_141724_www youtube com](https://github.com/zelhajou/42-net_practice/assets/39954629/5372958e-fee7-4eef-96ed-fddb7ada3619)
+  
+  </details>
 
 - [Network Topologies (Star, Bus, Ring, Mesh, Ad hoc, Infrastructure, & Wireless Mesh Topology)](https://www.youtube.com/watch?v=zbqrNg4C98U)📹
 - [IT Dose - Network Topologies Bus - Ring - Mesh - Star](https://youtu.be/cLuBLwa3XlI)[AR]📹
