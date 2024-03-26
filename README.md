@@ -146,14 +146,39 @@ The TCP/IP model is a simplified version of the OSI model, commonly used in mode
 - [IT Dose - Network Topologies Bus - Ring - Mesh - Star](https://youtu.be/cLuBLwa3XlI)[AR]📹
 
 ## Network Communication
+
+Network communication refers to the exchange of data and information between devices within a network. It encompasses various technologies and protocols that enable devices to connect, communicate, and share resources over a network infrastructure.
+
 - **Local Area Networks (LANs)**: LANs are networks that connect devices within a limited geographic area, such as a home, office, or campus. They typically use Ethernet or Wi-Fi technology and are often used for sharing resources such as files, printers, and internet access.
 - **Wide Area Networks (WANs)**: WANs connect devices over a wide geographic area, often spanning multiple cities or countries. Examples include the internet, private leased lines, and virtual private networks (VPNs).
 - **Wireless Networking**: Wireless technologies enable communication between devices without the need for physical cables. Common wireless standards include Wi-Fi (802.11), Bluetooth, and cellular networks (e.g., 3G, 4G, 5G).
 - **Ethernet Technologies**: Ethernet is a widely used networking technology that defines standards for data transmission over wired LANs. Variants include Ethernet, Fast Ethernet, Gigabit Ethernet, and 10 Gigabit Ethernet.
 - **Data Link Layer**: The data link layer is responsible for transferring data between adjacent network nodes. It includes functions such as framing, addressing (MAC addresses), error detection, and flow control.
-  - [Catsing types and the difference between broadcast وال multicast وال unicast وال half-duplex وال full-duplex](https://youtu.be/GCHcGimdA3g?list=PL8s4OGp0649_e_Wbz5MlBgW5rBW-9hD0c)
 - **Network Layer**: The network layer handles routing and forwarding of data packets across interconnected networks. It includes protocols such as IP (Internet Protocol), ICMP (Internet Control Message Protocol), and ARP (Address Resolution Protocol).
-  - [Catsing types and the difference between broadcast وال multicast وال unicast وال half-duplex وال full-duplex](https://youtu.be/GCHcGimdA3g?list=PL8s4OGp0649_e_Wbz5MlBgW5rBW-9hD0c)
+
+### Types of Casting
+Casting refers to the method by which data packets are sent and received within a network. There are three main types of casting: unicast, multicast, and broadcast.
+
+- **Unicast**: Unicast transmission involves sending data packets from one sender to one specific receiver.
+Each packet in a unicast transmission is addressed to a single destination IP address.
+Unicast communication is used for one-to-one communication scenarios, such as client-server communication and peer-to-peer file transfer.
+- **Multicast**: Multicast transmission involves sending data packets from one sender to multiple recipients who are interested in receiving the data.
+Each packet in a multicast transmission is addressed to a specific multicast group, identified by a multicast IP address.
+Multicast communication is used for one-to-many or many-to-many communication scenarios, such as streaming media, video conferencing, and online gaming.
+- **Broadcast**: Broadcast transmission involves sending data packets from one sender to all devices within a network segment.
+Each packet in a broadcast transmission is addressed to a special broadcast address, such as 255.255.255.255 for IPv4 or ff02::1 for IPv6.
+Broadcast communication is used for one-to-all communication scenarios, such as network discovery, address resolution, and service advertisement.
+
+### Transmission Modes
+Transmission modes refer to the direction of data transmission between devices in a network. There are three main transmission modes: simplex, half-duplex, and full-duplex.
+
+1. **Simplex**: In simplex mode, data flows in only one direction, from the sender to the receiver. There is no feedback mechanism or capability for the receiver to send data back to the sender. Simplex communication is often used in scenarios where data is transmitted from a central device to peripheral devices, such as in television broadcasting, where the TV station sends signals to viewers.
+
+2. **Half-Duplex**: In half-duplex mode, data can flow in both directions, but not simultaneously. Devices can either send or receive data at any given time, but not both simultaneously. Half-duplex communication allows for bidirectional communication, but only one device can transmit at a time. Walkie-talkies and CB radios are examples of half-duplex communication, where users take turns speaking and listening.
+
+3. **Full-Duplex**: In full-duplex mode, data can flow in both directions simultaneously. Devices can send and receive data simultaneously, allowing for faster and more efficient communication. Full-duplex communication is commonly used in modern networking technologies, such as Ethernet and Wi-Fi, where devices can both transmit and receive data at the same time without interference.
+
+
 
 ## Internet Protocol (IP)
 
