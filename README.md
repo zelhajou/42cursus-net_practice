@@ -182,11 +182,14 @@ Transmission modes refer to the direction of data transmission between devices i
 IP (Internet Protocol) addressing is a fundamental concept in networking that enables devices to communicate with each other over a network. An IP address is a numerical label assigned to each device participating in a computer network that uses the Internet Protocol for communication. IP addresses are typically represented in dotted-decimal notation, such as 192.168.1.1.
 
   - [NetworkChuck - what is an IP Address?](https://www.youtube.com/watch?v=5WfiTHiU4x8) 📹
+  - [Wikipedia - IP address]https://en.wikipedia.org/wiki/IP_address
 
 ### IPv4 Addressing:
 IPv4 (Internet Protocol version 4) addresses are 32-bit numerical addresses represented in four octets separated by periods (e.g., 192.168.1.1). IPv4 addresses are divided into different classes (A, B, C, D, and E) and types (unicast, multicast, and broadcast).
 
 ![ip-address-classes-1024x424](https://github.com/zelhajou/42-net_practice/assets/39954629/d5b9f166-16fa-438c-8cc2-b74696077ce0)
+
+- https://en.wikipedia.org/wiki/Reserved_IP_addresses
 
 #### 1. Subnetting:
 Subnetting is the process of dividing a single, large network into multiple smaller subnetworks (subnets) to improve network performance, manageability, and security. Subnetting allows organizations to efficiently allocate IP addresses and reduce network congestion.
