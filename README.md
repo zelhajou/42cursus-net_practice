@@ -417,3 +417,6 @@ OWASP or Open Web Application Security Project is an online community that produ
 ## Net Practice Resources
 - [Guide to NetPractice](https://github.com/lpaube/NetPractice?tab=readme-ov-file)
 - [NetPractice](https://42-cursus.gitbook.io/guide/rank-04/netpractice)
+
+## Other Resources
+- [manjunath5496 - Networking-Books](https://github.com/manjunath5496/Networking-Books)
