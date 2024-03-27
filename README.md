@@ -186,8 +186,7 @@ IP (Internet Protocol) addressing is a fundamental concept in networking that en
 ### IPv4 Addressing:
 IPv4 (Internet Protocol version 4) addresses are 32-bit numerical addresses represented in four octets separated by periods (e.g., 192.168.1.1). IPv4 addresses are divided into different classes (A, B, C, D, and E) and types (unicast, multicast, and broadcast).
 
-
-![ip-adresse-FR-1](https://github.com/zelhajou/42-net_practice/assets/39954629/3c1aa73d-64c6-49b8-8146-902202a83600)
+![ip-address-classes-1024x424](https://github.com/zelhajou/42-net_practice/assets/39954629/d5b9f166-16fa-438c-8cc2-b74696077ce0)
 
 #### 1. Subnetting:
 Subnetting is the process of dividing a single, large network into multiple smaller subnetworks (subnets) to improve network performance, manageability, and security. Subnetting allows organizations to efficiently allocate IP addresses and reduce network congestion.
@@ -200,6 +199,8 @@ Subnetting is the process of dividing a single, large network into multiple smal
 ### IPv6 Addressing:
 IPv6 (Internet Protocol version 6) addresses are the next generation of IP addresses designed to overcome the limitations of IPv4. IPv6 addresses are 128 bits long and are represented in hexadecimal notation, such as 2001:0db8:85a3:0000:0000:8a2e:0370:7334. IPv6 provides a significantly larger address space to accommodate the growing number of devices connected to the Internet.
 
+
+![ip-adresse-FR-1](https://github.com/zelhajou/42-net_practice/assets/39954629/3c1aa73d-64c6-49b8-8146-902202a83600)
 
 ---
 
