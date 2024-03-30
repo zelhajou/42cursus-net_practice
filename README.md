@@ -7,7 +7,6 @@ This repository contains practice exercises and projects related to networking c
 ## Net Practice Resources
 - [Guide to NetPractice](https://github.com/lpaube/NetPractice?tab=readme-ov-file)
 - [NetPractice](https://42-cursus.gitbook.io/guide/rank-04/netpractice)
-- [Network Academy - IP Subnetting]()https://www.networkacademy.io/ccna/ip-subnetting
 - [Networking Essentials - A CompTIA Network+ N10-008 Jeffrey S. Beasley Piyasat Nilkaew](https://github.com/zelhajou/42-net_practice/blob/main/Networking%20Essentials%20-%20A%20CompTIA%20Network%2B%20N10-008%20Textbook%20--%20Jeffrey%20S.%20Beasley%20Piyasat%20Nilkaew%20--%206%2C%202021%20--%20Pearson%20IT%20Certification%20--%209780137455829%20--%209a67f395a1cb10a675ccc3b2de9a6c23%20--%20Anna%E2%80%99s%20Archive.pdf)
 - [manjunath5496 - Networking-Books](https://github.com/manjunath5496/Networking-Books)
 
@@ -205,6 +204,9 @@ Subnetting is the process of dividing a single, large network into multiple smal
 - **CIDR (Classless Inter-Domain Routing)**: CIDR is a method used to allocate and specify IP addresses and their associated subnet masks more flexibly than traditional IP classes. CIDR notation represents an IP address followed by a forward slash and the number of significant bits in the subnet mask. For example, 192.168.1.0/24 represents a subnet with a subnet mask of 255.255.255.0.
 - **Address Space Allocation**: Subnetting allows organizations to efficiently allocate IP address space by dividing it into smaller, manageable chunks. Each subnet can have its own range of IP addresses, allowing for more granular control over network resources and security policies.
 - **Routing and Network Segmentation**: Subnetting facilitates routing and network segmentation by organizing devices into logical groups based on their IP addresses. This improves network performance by reducing broadcast traffic and optimizing routing efficiency.
+
+[Practical Networking - Subnetting Mastery](https://www.youtube.com/playlist?list=PLIFyRwBY_4bQUE4IB5c4VPRyDoLgOdExE)
+[Network Academy - IP Subnetting]()https://www.networkacademy.io/ccna/ip-subnetting
 
 ### IPv6 Addressing:
 IPv6 (Internet Protocol version 6) addresses are the next generation of IP addresses designed to overcome the limitations of IPv4. IPv6 addresses are 128 bits long and are represented in hexadecimal notation, such as 2001:0db8:85a3:0000:0000:8a2e:0370:7334. IPv6 provides a significantly larger address space to accommodate the growing number of devices connected to the Internet.
