@@ -4,6 +4,12 @@
 
 This repository contains practice exercises and projects related to networking concepts, as part of the curriculum at 42 School. These exercises are designed to help students grasp various networking principles and protocols, enhancing their understanding and skills in this domain.
 
+## Net Practice Resources
+- [Guide to NetPractice](https://github.com/lpaube/NetPractice?tab=readme-ov-file)
+- [NetPractice](https://42-cursus.gitbook.io/guide/rank-04/netpractice)
+- [Networking Essentials - A CompTIA Network+ N10-008 Jeffrey S. Beasley Piyasat Nilkaew](https://github.com/zelhajou/42-net_practice/blob/main/Networking%20Essentials%20-%20A%20CompTIA%20Network%2B%20N10-008%20Textbook%20--%20Jeffrey%20S.%20Beasley%20Piyasat%20Nilkaew%20--%206%2C%202021%20--%20Pearson%20IT%20Certification%20--%209780137455829%20--%209a67f395a1cb10a675ccc3b2de9a6c23%20--%20Anna%E2%80%99s%20Archive.pdf)
+- [manjunath5496 - Networking-Books](https://github.com/manjunath5496/Networking-Books)
+
 ## Introduction to Networking
 Networking is a foundational concept in the realm of computer science and technology. It revolves around the interconnection of devices and systems to share resources, information, and communication. In today's interconnected world, networking is crucial in enabling communication between computers, smartphones, servers, and other devices, both locally and globally.
 
@@ -414,9 +420,3 @@ OWASP or Open Web Application Security Project is an online community that produ
 - [OWASP Cheatsheets](https://sucuri.net/guides/owasp-top-10-security-vulnerabilities-2021/)
 
 
-## Net Practice Resources
-- [Guide to NetPractice](https://github.com/lpaube/NetPractice?tab=readme-ov-file)
-- [NetPractice](https://42-cursus.gitbook.io/guide/rank-04/netpractice)
-
-## Other Resources
-- [manjunath5496 - Networking-Books](https://github.com/manjunath5496/Networking-Books)
