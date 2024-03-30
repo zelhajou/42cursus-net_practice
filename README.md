@@ -30,17 +30,6 @@ At its core, networking involves exchanging data between devices over a communic
 
 - [Network components and types of cables](https://youtu.be/2XJTR6MLX3U?list=PL8s4OGp0649_e_Wbz5MlBgW5rBW-9hD0c)[AR] 📹
 
-<!--
-### Evolution of Networking:
-Networking has evolved significantly over the years, driven by technological advancements and changing user demands. From early local area networks (LANs) and wide area networks (WANs) to modern cloud computing and mobile networking technologies, the landscape of networking continues to evolve rapidly.
-
-Emerging technologies such as software-defined networking (SDN), network function virtualization (NFV), 5G networking, and the Internet of Things (IoT) are reshaping the way networks are designed, deployed, and managed. These technologies offer new opportunities and challenges for businesses, governments, and individuals seeking to harness the power of network connectivity.
-
-### Importance of Networking:
-Networking is essential for businesses, organizations, and individuals alike, enabling collaboration, innovation, and connectivity on a global scale. It facilitates access to information, resources, and services, driving productivity, efficiency, and growth in various industries and sectors.
-
-In the digital age, networking has become synonymous with communication, collaboration, and connectivity. Whether it's connecting people through social media, enabling remote work and learning, or powering e-commerce and online services, networking is the backbone of our interconnected world.
--->
 ## Network Basics
 Networking encompasses a wide range of concepts and principles that form the foundation of communication and data exchange in computer networks.
 
@@ -195,6 +184,19 @@ IPv4 (Internet Protocol version 4) addresses are 32-bit numerical addresses repr
 
 ![ip-address-classes-1024x424](https://github.com/zelhajou/42-net_practice/assets/39954629/d5b9f166-16fa-438c-8cc2-b74696077ce0)
 
+IP addresses were divided into classes as a way to manage the allocation of IP addresses efficiently. These classes, known as Class A, Class B, and Class C, were based on the leading bits of the IP address. However, with the introduction of Classless Inter-Domain Routing (CIDR), the concept of IP address classes has become less relevant. CIDR allows for more flexible allocation of IP addresses without strict adherence to class boundaries. Nonetheless, understanding the historical concept of IP address classes can still be useful for understanding networking fundamentals.
+
+
+| Reserved Address Range    | Description                                                                        |
+|---------------------------|------------------------------------------------------------------------------------|
+| 127.0.0.0 to 127.255.255.255 | Loopback addresses, typically used for testing network communication internally.   |
+| 10.0.0.0 to 10.255.255.255   | Private IP addresses, commonly used within private networks behind routers.        |
+| 172.16.0.0 to 172.31.255.255 | Private IP addresses, commonly used within private networks behind routers.        |
+| 192.168.0.0 to 192.168.255.255 | Private IP addresses, commonly used within private networks behind routers.       |
+| 169.254.0.0 to 169.254.255.255 | Link-local addresses, used for communication within a single subnet.              |
+| 224.0.0.0 to 239.255.255.255 | Multicast addresses, used for one-to-many communication.                          |
+| 240.0.0.0 to 255.255.255.254 | Reserved for future use or unassigned.                                             |
+
 - https://en.wikipedia.org/wiki/Reserved_IP_addresses
 
 #### 1. Subnetting:
@@ -209,17 +211,6 @@ Subnetting is the process of dividing a single, large network into multiple smal
 - **Address Space Allocation**: Subnetting allows organizations to efficiently allocate IP address space by dividing it into smaller, manageable chunks. Each subnet can have its own range of IP addresses, allowing for more granular control over network resources and security policies.
 - **Routing and Network Segmentation**: Subnetting facilitates routing and network segmentation by organizing devices into logical groups based on their IP addresses. This improves network performance by reducing broadcast traffic and optimizing routing efficiency.
 
-
-
-| Reserved Address Range    | Description                                                                        |
-|---------------------------|------------------------------------------------------------------------------------|
-| 127.0.0.0 to 127.255.255.255 | Loopback addresses, typically used for testing network communication internally.   |
-| 10.0.0.0 to 10.255.255.255   | Private IP addresses, commonly used within private networks behind routers.        |
-| 172.16.0.0 to 172.31.255.255 | Private IP addresses, commonly used within private networks behind routers.        |
-| 192.168.0.0 to 192.168.255.255 | Private IP addresses, commonly used within private networks behind routers.       |
-| 169.254.0.0 to 169.254.255.255 | Link-local addresses, used for communication within a single subnet.              |
-| 224.0.0.0 to 239.255.255.255 | Multicast addresses, used for one-to-many communication.                          |
-| 240.0.0.0 to 255.255.255.254 | Reserved for future use or unassigned.                                             |
 
 
 
