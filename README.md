@@ -4,11 +4,18 @@
 
 This repository contains practice exercises and projects related to networking concepts, as part of the curriculum at 42 School. These exercises are designed to help students grasp various networking principles and protocols, enhancing their understanding and skills in this domain.
 
+## Net Practice Resources
+- [Guide to NetPractice](https://github.com/lpaube/NetPractice?tab=readme-ov-file)
+- [NetPractice](https://42-cursus.gitbook.io/guide/rank-04/netpractice)
+- [Networking Essentials - A CompTIA Network+ N10-008 Jeffrey S. Beasley Piyasat Nilkaew](https://github.com/zelhajou/42-net_practice/blob/main/Networking%20Essentials%20-%20A%20CompTIA%20Network%2B%20N10-008%20Textbook%20--%20Jeffrey%20S.%20Beasley%20Piyasat%20Nilkaew%20--%206%2C%202021%20--%20Pearson%20IT%20Certification%20--%209780137455829%20--%209a67f395a1cb10a675ccc3b2de9a6c23%20--%20Anna%E2%80%99s%20Archive.pdf)
+- [manjunath5496 - Networking-Books](https://github.com/manjunath5496/Networking-Books)
+
 ## Introduction to Networking
 Networking is a foundational concept in the realm of computer science and technology. It revolves around the interconnection of devices and systems to share resources, information, and communication. In today's interconnected world, networking is crucial in enabling communication between computers, smartphones, servers, and other devices, both locally and globally.
 
 At its core, networking involves exchanging data between devices over a communication medium, such as cables, wireless signals, or optical fibers. This exchange of data enables users to access websites, send emails, stream videos, transfer files, and perform countless other tasks that rely on network connectivity.
 
+- [LiveOverflow - Computer Networking (Deepdive)](https://youtu.be/6G14NrjekLQ) 📹
 - [Fireship - Computer Networking in 100 Seconds](https://youtu.be/keeqnciDVOo) 📹
 - [NetworkChuck -  What is a Network?](https://youtu.be/S7MNX_UD7vY?list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P) 📹
 - [Crash Course - Computer Networks](https://youtu.be/3QhU9jd03a0) 📹
@@ -22,19 +29,6 @@ At its core, networking involves exchanging data between devices over a communic
 4. **Addressing**: Network addressing involves assigning unique identifiers to devices on a network to facilitate communication. IP addresses are used to identify devices within a network, while MAC addresses are used to identify devices at the data link layer.
 5. **Security**: Network security is a critical aspect of networking that involves protecting data, devices, and infrastructure from unauthorized access, attacks, and threats. Security measures include encryption, authentication, firewalls, intrusion detection systems, and security protocols.
 
-- [Network components and types of cables](https://youtu.be/2XJTR6MLX3U?list=PL8s4OGp0649_e_Wbz5MlBgW5rBW-9hD0c)[AR] 📹
-
-<!--
-### Evolution of Networking:
-Networking has evolved significantly over the years, driven by technological advancements and changing user demands. From early local area networks (LANs) and wide area networks (WANs) to modern cloud computing and mobile networking technologies, the landscape of networking continues to evolve rapidly.
-
-Emerging technologies such as software-defined networking (SDN), network function virtualization (NFV), 5G networking, and the Internet of Things (IoT) are reshaping the way networks are designed, deployed, and managed. These technologies offer new opportunities and challenges for businesses, governments, and individuals seeking to harness the power of network connectivity.
-
-### Importance of Networking:
-Networking is essential for businesses, organizations, and individuals alike, enabling collaboration, innovation, and connectivity on a global scale. It facilitates access to information, resources, and services, driving productivity, efficiency, and growth in various industries and sectors.
-
-In the digital age, networking has become synonymous with communication, collaboration, and connectivity. Whether it's connecting people through social media, enabling remote work and learning, or powering e-commerce and online services, networking is the backbone of our interconnected world.
--->
 ## Network Basics
 Networking encompasses a wide range of concepts and principles that form the foundation of communication and data exchange in computer networks.
 
@@ -189,15 +183,35 @@ IPv4 (Internet Protocol version 4) addresses are 32-bit numerical addresses repr
 
 ![ip-address-classes-1024x424](https://github.com/zelhajou/42-net_practice/assets/39954629/d5b9f166-16fa-438c-8cc2-b74696077ce0)
 
+IP addresses were divided into classes as a way to manage the allocation of IP addresses efficiently. These classes, known as Class A, Class B, and Class C, were based on the leading bits of the IP address. However, with the introduction of Classless Inter-Domain Routing (CIDR), the concept of IP address classes has become less relevant. CIDR allows for more flexible allocation of IP addresses without strict adherence to class boundaries. Nonetheless, understanding the historical concept of IP address classes can still be useful for understanding networking fundamentals.
+
+
+| Reserved Address Range    | Description                                                                        |
+|---------------------------|------------------------------------------------------------------------------------|
+| 127.0.0.0 to 127.255.255.255 | Loopback addresses, typically used for testing network communication internally.   |
+| 10.0.0.0 to 10.255.255.255   | Private IP addresses, commonly used within private networks behind routers.        |
+| 172.16.0.0 to 172.31.255.255 | Private IP addresses, commonly used within private networks behind routers.        |
+| 192.168.0.0 to 192.168.255.255 | Private IP addresses, commonly used within private networks behind routers.       |
+| 169.254.0.0 to 169.254.255.255 | Link-local addresses, used for communication within a single subnet.              |
+| 224.0.0.0 to 239.255.255.255 | Multicast addresses, used for one-to-many communication.                          |
+| 240.0.0.0 to 255.255.255.254 | Reserved for future use or unassigned.                                             |
+
 - https://en.wikipedia.org/wiki/Reserved_IP_addresses
 
 #### 1. Subnetting:
 Subnetting is the process of dividing a single, large network into multiple smaller subnetworks (subnets) to improve network performance, manageability, and security. Subnetting allows organizations to efficiently allocate IP addresses and reduce network congestion.
 
+[Practical Networking - Subnetting Mastery](https://www.youtube.com/playlist?list=PLIFyRwBY_4bQUE4IB5c4VPRyDoLgOdExE)📹 <br>
+[NetworkChuck - You Suck at Subnetting ](https://www.youtube.com/playlist?list=PLIhvC56v63IKrRHh3gvZZBAGvsvOhwrRF)📹 <br>
+[Network Academy - IP Subnetting](https://www.networkacademy.io/ccna/ip-subnetting) 
+
 - **Subnet Masks**: A subnet mask is a 32-bit binary number used to divide an IP address into network and host portions. It consists of a series of contiguous 1s followed by a series of contiguous 0s. For example, a subnet mask of 255.255.255.0 (or /24 in CIDR notation) means that the first 24 bits of the IP address represent the network portion, and the remaining 8 bits represent the host portion.
 - **CIDR (Classless Inter-Domain Routing)**: CIDR is a method used to allocate and specify IP addresses and their associated subnet masks more flexibly than traditional IP classes. CIDR notation represents an IP address followed by a forward slash and the number of significant bits in the subnet mask. For example, 192.168.1.0/24 represents a subnet with a subnet mask of 255.255.255.0.
 - **Address Space Allocation**: Subnetting allows organizations to efficiently allocate IP address space by dividing it into smaller, manageable chunks. Each subnet can have its own range of IP addresses, allowing for more granular control over network resources and security policies.
 - **Routing and Network Segmentation**: Subnetting facilitates routing and network segmentation by organizing devices into logical groups based on their IP addresses. This improves network performance by reducing broadcast traffic and optimizing routing efficiency.
+
+
+
 
 ### IPv6 Addressing:
 IPv6 (Internet Protocol version 6) addresses are the next generation of IP addresses designed to overcome the limitations of IPv4. IPv6 addresses are 128 bits long and are represented in hexadecimal notation, such as 2001:0db8:85a3:0000:0000:8a2e:0370:7334. IPv6 provides a significantly larger address space to accommodate the growing number of devices connected to the Internet.
@@ -414,9 +428,3 @@ OWASP or Open Web Application Security Project is an online community that produ
 - [OWASP Cheatsheets](https://sucuri.net/guides/owasp-top-10-security-vulnerabilities-2021/)
 
 
-## Net Practice Resources
-- [Guide to NetPractice](https://github.com/lpaube/NetPractice?tab=readme-ov-file)
-- [NetPractice](https://42-cursus.gitbook.io/guide/rank-04/netpractice)
-
-## Other Resources
-- [manjunath5496 - Networking-Books](https://github.com/manjunath5496/Networking-Books)
