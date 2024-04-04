@@ -76,7 +76,6 @@ The TCP/IP model is a simplified version of the OSI model, commonly used in mode
 
 - [Geeksforgeeks - Network Devices (Hub, Repeater, Bridge, Switch, Router, Gateways and Brouter)](https://www.geeksforgeeks.org/network-devices-hub-repeater-bridge-switch-router-gateways/)
 - [Hub vs Switch vs Router](https://youtu.be/_ifRgCb8o60)[AR]📹
-- [NETWORK DEVICES الفرق بين أجهزة الشبكة](https://www.youtube.com/watch?v=X2LF8rzWijk&pp=ygUWbmV0d29yayBkZXZpY2VzINi02LHYrQ%3D%3D)[AR]📹
 - [Hub, Switch, & Router Explained - What's the difference?](https://youtu.be/1z0ULvg_pW8)📹
 - [Modem vs Router - What's the difference?](https://www.youtube.com/watch?v=Mad4kQ5835Y)📹
 - [Layer 2 vs Layer 3 Switches](https://www.youtube.com/watch?v=bdNS0K4Bt8U)📹
