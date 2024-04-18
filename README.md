@@ -7,6 +7,8 @@ This repository contains practice exercises and projects related to networking c
 ## Net Practice Resources
 - [Guide to NetPractice](https://github.com/lpaube/NetPractice?tab=readme-ov-file)
 - [NetPractice](https://42-cursus.gitbook.io/guide/rank-04/netpractice)
+- [The Internet’s Layered Network Architecture](https://www.codequoi.com/en/internet-layered-network-architecture/)
+- [IPv4 Addresses, Routing and Subnet Masks](https://www.codequoi.com/en/ipv4-addresses-routing-and-subnet-masks/)
 - [Networking Essentials - A CompTIA Network+ N10-008 Jeffrey S. Beasley Piyasat Nilkaew](https://github.com/zelhajou/42-net_practice/blob/main/Networking%20Essentials%20-%20A%20CompTIA%20Network%2B%20N10-008%20Textbook%20--%20Jeffrey%20S.%20Beasley%20Piyasat%20Nilkaew%20--%206%2C%202021%20--%20Pearson%20IT%20Certification%20--%209780137455829%20--%209a67f395a1cb10a675ccc3b2de9a6c23%20--%20Anna%E2%80%99s%20Archive.pdf)
 - [manjunath5496 - Networking-Books](https://github.com/manjunath5496/Networking-Books)
 
