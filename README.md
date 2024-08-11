@@ -246,6 +246,9 @@ IPv6 (Internet Protocol version 6) addresses are the next generation of IP addre
 
 ## Application Layer Protocols:
 - **Hypertext Transfer Protocol (HTTP)**: HTTP is a protocol used for transferring hypertext documents, such as web pages, over the internet. It operates on top of TCP and uses port 80 by default. HTTP defines methods for requesting and transmitting data between clients (web browsers) and servers.
+
+   ![whats-http](https://github.com/user-attachments/assets/1f63084f-79b6-4d84-8ebd-f7564a271858)
+
   - [Everything you need to know about HTTP](https://cs.fyi/guide/http-in-depth)
   - [What is HTTP?](https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/)
   - [An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
