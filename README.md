@@ -399,6 +399,9 @@ A web browser is a software application that enables a user to access and displa
 - [vasanthk/how-web-works](https://github.com/vasanthk/how-web-works)
 - [Anatomy of a URL](https://doepud.co.uk/anatomy-of-a-url)
 
+![how-urls-work](https://github.com/user-attachments/assets/363b8452-7719-4341-b963-9417bc2fc324)
+
+
 ## Network Security
 
 ### Cryptography:
