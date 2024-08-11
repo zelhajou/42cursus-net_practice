@@ -40,6 +40,9 @@ Networking encompasses a wide range of concepts and principles that form the fou
 
 ### 1. Networking Models (OSI, TCP/IP):
 #### OSI Model (Open Systems Interconnection):
+
+![layers](https://github.com/user-attachments/assets/687b32d6-4ef3-4616-b19d-aa56c281faf4)
+
 The OSI model is a conceptual framework that standardizes the functions of a telecommunication or computing system into seven abstraction layers. It was developed by the International Organization for Standardization (ISO) in the late 1970s.
 
 The OSI model serves as a guideline for designing and understanding network communication systems. By breaking down network communication into layers, it allows for modular design, interoperability, and easier troubleshooting.
