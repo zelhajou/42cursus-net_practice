@@ -88,6 +88,8 @@ The TCP/IP model is a simplified version of the OSI model, commonly used in mode
 
 ### 4. Network Protocols
 
+![network-protocols](https://github.com/user-attachments/assets/91163c8d-fb13-4923-8ca0-fd7716a64fcb)
+
 - **TCP (Transmission Control Protocol)**: TCP is a reliable, connection-oriented protocol used for transmitting data packets over networks. It provides mechanisms for establishing and terminating connections, acknowledging received data packets, retransmitting lost packets, and controlling data flow to ensure reliable and orderly communication between devices.
 - **IP (Internet Protocol)**: IP is a network layer protocol responsible for addressing and routing data packets across interconnected networks. It assigns unique IP addresses to devices and uses routing algorithms to determine the best path for packet delivery. IP is the foundation of the internet and is used to transmit data between devices worldwide.
 - **UDP (User Datagram Protocol)**: UDP is a connectionless, unreliable protocol used for transmitting data packets over networks. Unlike TCP, UDP does not establish a connection before sending data and does not provide error checking, sequencing, or flow control mechanisms. UDP is commonly used for real-time applications such as voice and video streaming, where low latency and high throughput are more important than reliability.
@@ -179,6 +181,8 @@ Transmission modes refer to the direction of data transmission between devices i
 ## Internet Protocol (IP)
 
 IP (Internet Protocol) addressing is a fundamental concept in networking that enables devices to communicate with each other over a network. An IP address is a numerical label assigned to each device participating in a computer network that uses the Internet Protocol for communication. IP addresses are typically represented in dotted-decimal notation, such as 192.168.1.1.
+
+![ip](https://github.com/user-attachments/assets/c400930d-ca39-4f1e-8110-fcdef0d2e50b)
 
   - [NetworkChuck - what is an IP Address?](https://www.youtube.com/watch?v=5WfiTHiU4x8) 📹
   - [Wikipedia - IP address](https://en.wikipedia.org/wiki/IP_address)
