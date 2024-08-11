@@ -25,6 +25,7 @@ At its core, networking involves exchanging data between devices over a communic
 - [IT Dose - Introduction to Networks and CCNA](https://youtu.be/q6tUCEUqxTQ?list=PL8s4OGp0649_e_Wbz5MlBgW5rBW-9hD0c)[AR] 📹
 
 ### Key Components of Networking:
+
 1. **Devices**: Networking involves various types of devices, including computers, routers, switches, modems, access points, and servers. These devices serve different functions within a network and are interconnected to facilitate communication and data exchange.
 2. **Protocols**: Protocols are rules and conventions that govern communication between devices on a network. They define how data is formatted, transmitted, received, and interpreted by devices. Common network protocols include TCP/IP, HTTP, FTP, DNS, and SMTP
 3. **Topologies**: Network topology refers to the physical or logical arrangement of devices and connections within a network. Common network topologies include bus, star, ring, and mesh configurations, each with its advantages and limitations in terms of scalability, fault tolerance, and performance.
@@ -33,6 +34,9 @@ At its core, networking involves exchanging data between devices over a communic
 
 ## Network Basics
 Networking encompasses a wide range of concepts and principles that form the foundation of communication and data exchange in computer networks.
+
+![networking](https://github.com/user-attachments/assets/184c4937-8129-4d32-ab09-21f20bd55e1c)
+
 
 ### 1. Networking Models (OSI, TCP/IP):
 #### OSI Model (Open Systems Interconnection):
