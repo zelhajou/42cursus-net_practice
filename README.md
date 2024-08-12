@@ -270,19 +270,39 @@ IPv6 (Internet Protocol version 6) addresses are the next generation of IP addre
   - [ByteByteGo - SSL, TLS, HTTPS Explained](https://youtu.be/j9QmMEWmcfo)
 - **File Transfer Protocol (FTP)**: FTP is a protocol used for transferring files between a client and a server over a network. It supports various operations such as file upload, download, renaming, and deletion. FTP operates on TCP and uses port 21 for control connections and port 20 for data connections.
 - **Domain Name System (DNS)**: DNS is a distributed naming system that translates domain names into IP addresses and vice versa. It enables users to access websites using human-readable domain names instead of numerical IP addresses. DNS operates on both UDP (for queries) and TCP (for zone transfers).
-![z9rwm5A](https://github.com/zelhajou/42-net_practice/assets/39954629/4d018fa7-64be-41a3-a719-e44f52ba1fd1)
-  - [What is DNS?](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/)
-  - [How DNS works (comic)](https://howdns.works/)
-  - [DNS and How does it Work?](https://www.youtube.com/watch?v=Wj0od2ag5sk)
-  - [DNS Records](https://www.youtube.com/watch?v=7lxgpKh_fRY)
-  - [Complete DNS mini-series](https://www.youtube.com/watch?v=zEmUuNFBgN8&list=PLTk5ZYSbd9MhMmOiPhfRJNW7bhxHo4q-K)
-  - [DNS in One Picture](https://roadmap.sh/guides/dns-in-one-picture)
-  - [DNS Explained](https://youtu.be/72snZctFFtA)
-  - [What is a Domain Name?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name): A domain name is a unique, easy-to-remember address used to access websites, such as ‘google.com’, and ‘facebook.com’. Users can connect to websites using domain names thanks to the Domain Name System (DNS).
-  - [Beginner's Guide: What is a Domain Name and How Does it Work?](https://www.wpbeginner.com/beginners-guide/beginners-guide-what-is-a-domain-name-and-how-do-domains-work/)
+   <div align="center">
+
+   ![why-dns](https://github.com/user-attachments/assets/4a47ad9b-3fb6-407e-a079-8e7ca33a6280)
+   ![dns-server-types](https://github.com/user-attachments/assets/7dde8390-e309-467f-bed3-6da7616a4bb8)
+   ![cast-of-characters-updated](https://github.com/user-attachments/assets/a52b86c3-6274-4924-b456-af35fbe17455)
+   ![resolvers-vs-authoritative-nameservers-updated](https://github.com/user-attachments/assets/e6a87b6c-5ae9-44b2-a6ff-21e479001cd3)
+   ![dns-hierarchy-updated](https://github.com/user-attachments/assets/df6e67b3-a3bf-42b1-a782-20e41837445b)
+   ![life-of-a-dns-query-updated (3)](https://github.com/user-attachments/assets/a57a9a30-4da0-4a51-9787-f89ed66e9d60)
+   ![dns-records](https://github.com/user-attachments/assets/acce1f6e-9ad2-427a-85ee-0d65d29aac7d)
+   ![dns-record-types](https://github.com/user-attachments/assets/213015ad-7c13-4f84-920b-b219230c1f32)
+
+   <!--
+   ![z9rwm5A](https://github.com/zelhajou/42-net_practice/assets/39954629/4d018fa7-64be-41a3-a719-e44f52ba1fd1)
+   -->
+   
+   </div>
+
+   - [How DNS works (comic)](https://howdns.works/)
+   - [DNS and How does it Work?](https://www.youtube.com/watch?v=Wj0od2ag5sk)
+   - [DNS Records](https://www.youtube.com/watch?v=7lxgpKh_fRY)
+   - [Complete DNS mini-series](https://www.youtube.com/watch?v=zEmUuNFBgN8&list=PLTk5ZYSbd9MhMmOiPhfRJNW7bhxHo4q-K)
+   - [DNS in One Picture](https://roadmap.sh/guides/dns-in-one-picture)
+   - [DNS Explained](https://youtu.be/72snZctFFtA)
+   - [What is a Domain Name?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name): A domain name is a unique, easy-to-remember address used to access websites, such as ‘google.com’, and ‘facebook.com’. Users can connect to websites using domain names thanks to the Domain Name System (DNS).
+   - [Beginner's Guide: What is a Domain Name and How Does it Work?](https://www.wpbeginner.com/beginners-guide/beginners-guide-what-is-a-domain-name-and-how-do-domains-work/)
 
 - **Simple Mail Transfer Protocol (SMTP)**: SMTP is a protocol used for sending email messages between mail servers. It defines how email messages are transmitted and delivered over the internet. SMTP operates on TCP and uses port 25 by default.
 - **Secure Shell (SSH)**: SSH is a cryptographic network protocol used for secure remote access to networked devices. It provides encrypted communication and authentication mechanisms for secure login sessions. SSH operates on TCP and uses port 22 by default.
+   <div align="center">
+      
+  ![ssh](https://github.com/user-attachments/assets/622a3068-6bdf-49f4-9890-c85bb7c556fa)
+
+   </div>
 - **Telnet**: Telnet is a protocol used for remote terminal emulation over a network. It allows users to access and manage devices remotely using a command-line interface. Telnet operates on TCP and uses port 23 by default.
 - **Dynamic Host Configuration Protocol (DHCP)**: DHCP is a protocol used for dynamically assigning IP addresses to network devices. It simplifies network configuration by automatically allocating IP addresses, subnet masks, default gateways, and other parameters to devices when they connect to a network.
 - **Network Time Protocol (NTP)**: NTP is a protocol used for synchronizing the clocks of networked devices. It ensures accurate timekeeping across distributed systems by synchronizing devices with a reference time source.
@@ -377,17 +397,12 @@ The Internet is a global network of computers connected which communicate throug
 - IM services typically support features such as presence indication (showing whether a user is online, offline, or busy), emoticons, file sharing, and voice/video calling. Examples of popular IM platforms include WhatsApp, Facebook Messenger, and Slack.
 - IM protocols, such as XMPP (Extensible Messaging and Presence Protocol) and proprietary protocols like WhatsApp's protocol, govern how messages are transmitted and exchanged between clients and servers.
 
-**4. Instant Messaging**:
-- Instant messaging (IM) is a form of real-time communication that enables users to exchange text messages, multimedia files, and other content instantly over the Internet. IM applications provide a platform for synchronous communication between individuals or groups.
-- IM services typically support features such as presence indication (showing whether a user is online, offline, or busy), emoticons, file sharing, and voice/video calling. Examples of popular IM platforms include WhatsApp, Facebook Messenger, and Slack.
-- IM protocols, such as XMPP (Extensible Messaging and Presence Protocol) and proprietary protocols like WhatsApp's protocol, govern how messages are transmitted and exchanged between clients and servers.
-
-**5. Streaming Media**:
+**4. Streaming Media**:
 - Streaming media refers to the delivery of multimedia content, such as audio and video, over the Internet in real-time or on-demand. It allows users to consume content without downloading the entire file beforehand, enabling instant playback.
 - Streaming services use protocols like HTTP Live Streaming (HLS), MPEG-DASH (Dynamic Adaptive Streaming over HTTP), and RTMP (Real-Time Messaging Protocol) to deliver audio and video content to users' devices. These protocols support adaptive bitrate streaming, allowing the quality of the media stream to adjust based on the user's network conditions.
 - Popular streaming platforms include Netflix, YouTube, Spotify, and Twitch, offering a wide range of content such as movies, TV shows, music, and live broadcasts.
 
-**6. Cloud Computing**:
+**5. Cloud Computing**:
 - Cloud computing is a model for delivering computing services over the Internet on a pay-as-you-go basis. It provides access to a shared pool of resources, including computing power, storage, and applications, that can be rapidly provisioned and scaled as needed.
 - Cloud computing services are categorized into three main models: Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS). Examples of cloud service providers include Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP).
 - Cloud computing offers numerous benefits, including cost savings, scalability, flexibility, and resilience. It has revolutionized the way organizations deploy and manage IT infrastructure, enabling innovation, agility, and digital transformation.
