@@ -257,7 +257,10 @@ IPv6 (Internet Protocol version 6) addresses are the next generation of IP addre
   - [SSL/TLS - Cristina Formaini](https://www.youtube.com/watch?v=Rp3iZUvXWlM)
 
 ## Application Layer Protocols:
-- **Hypertext Transfer Protocol (HTTP)**: HTTP is a protocol used for transferring hypertext documents, such as web pages, over the internet. It operates on top of TCP and uses port 80 by default. HTTP defines methods for requesting and transmitting data between clients (web browsers) and servers.
+
+### Hypertext Transfer Protocol (HTTP)
+
+HTTP is a protocol used for transferring hypertext documents, such as web pages, over the internet. It operates on top of TCP and uses port 80 by default. HTTP defines methods for requesting and transmitting data between clients (web browsers) and servers.
 
    ![whats-http](https://github.com/user-attachments/assets/1f63084f-79b6-4d84-8ebd-f7564a271858)
 
@@ -268,41 +271,67 @@ IPv6 (Internet Protocol version 6) addresses are the next generation of IP addre
   - [HTTP/1 to HTTP/2 to HTTP/3](https://www.youtube.com/watch?v=a-sBfyiXysI)
   - [HTTP Crash Course & Exploration](https://www.youtube.com/watch?v=iYM2zFP3Zn0)
   - [ByteByteGo - SSL, TLS, HTTPS Explained](https://youtu.be/j9QmMEWmcfo)
-- **File Transfer Protocol (FTP)**: FTP is a protocol used for transferring files between a client and a server over a network. It supports various operations such as file upload, download, renaming, and deletion. FTP operates on TCP and uses port 21 for control connections and port 20 for data connections.
-- **Domain Name System (DNS)**: DNS is a distributed naming system that translates domain names into IP addresses and vice versa. It enables users to access websites using human-readable domain names instead of numerical IP addresses. DNS operates on both UDP (for queries) and TCP (for zone transfers).
-   <div align="center">
 
-   ![why-dns](https://github.com/user-attachments/assets/4a47ad9b-3fb6-407e-a079-8e7ca33a6280)
-   ![dns-server-types](https://github.com/user-attachments/assets/7dde8390-e309-467f-bed3-6da7616a4bb8)
-   ![cast-of-characters-updated](https://github.com/user-attachments/assets/a52b86c3-6274-4924-b456-af35fbe17455)
-   ![resolvers-vs-authoritative-nameservers-updated](https://github.com/user-attachments/assets/e6a87b6c-5ae9-44b2-a6ff-21e479001cd3)
-   ![dns-hierarchy-updated](https://github.com/user-attachments/assets/df6e67b3-a3bf-42b1-a782-20e41837445b)
-   ![life-of-a-dns-query-updated (3)](https://github.com/user-attachments/assets/a57a9a30-4da0-4a51-9787-f89ed66e9d60)
-   ![dns-records](https://github.com/user-attachments/assets/acce1f6e-9ad2-427a-85ee-0d65d29aac7d)
-   ![dns-record-types](https://github.com/user-attachments/assets/213015ad-7c13-4f84-920b-b219230c1f32)
+### File Transfer Protocol (FTP)
 
-   <!--
-   ![z9rwm5A](https://github.com/zelhajou/42-net_practice/assets/39954629/4d018fa7-64be-41a3-a719-e44f52ba1fd1)
-   -->
+FTP is a protocol used for transferring files between a client and a server over a network. It supports various operations such as file upload, download, renaming, and deletion. FTP operates on TCP and uses port 21 for control connections and port 20 for data connections.
+
+### Domain Name System (DNS)
+
+DNS is a distributed naming system that translates domain names into IP addresses and vice versa. It enables users to access websites using human-readable domain names instead of numerical IP addresses. DNS operates on both UDP (for queries) and TCP (for zone transfers).
+<div align="center">
+
+![why-dns](https://github.com/user-attachments/assets/4a47ad9b-3fb6-407e-a079-8e7ca33a6280)
+![dns-server-types](https://github.com/user-attachments/assets/7dde8390-e309-467f-bed3-6da7616a4bb8)
+![cast-of-characters-updated](https://github.com/user-attachments/assets/a52b86c3-6274-4924-b456-af35fbe17455)
+![resolvers-vs-authoritative-nameservers-updated](https://github.com/user-attachments/assets/e6a87b6c-5ae9-44b2-a6ff-21e479001cd3)
+![dns-hierarchy-updated](https://github.com/user-attachments/assets/df6e67b3-a3bf-42b1-a782-20e41837445b)
+![life-of-a-dns-query-updated (3)](https://github.com/user-attachments/assets/a57a9a30-4da0-4a51-9787-f89ed66e9d60)
+![dns-records](https://github.com/user-attachments/assets/acce1f6e-9ad2-427a-85ee-0d65d29aac7d)
+![dns-record-types](https://github.com/user-attachments/assets/213015ad-7c13-4f84-920b-b219230c1f32)
+![everything-inside-dns-packet-updated](https://github.com/user-attachments/assets/929998be-1908-4320-a65c-ceb551a6f6c2)
+<!--
+![z9rwm5A](https://github.com/zelhajou/42-net_practice/assets/39954629/4d018fa7-64be-41a3-a719-e44f52ba1fd1)
+-->
+</div>
    
-   </div>
+#### Authoritative Nameservers
 
-   - [How DNS works (comic)](https://howdns.works/)
-   - [DNS and How does it Work?](https://www.youtube.com/watch?v=Wj0od2ag5sk)
-   - [DNS Records](https://www.youtube.com/watch?v=7lxgpKh_fRY)
-   - [Complete DNS mini-series](https://www.youtube.com/watch?v=zEmUuNFBgN8&list=PLTk5ZYSbd9MhMmOiPhfRJNW7bhxHo4q-K)
-   - [DNS in One Picture](https://roadmap.sh/guides/dns-in-one-picture)
-   - [DNS Explained](https://youtu.be/72snZctFFtA)
-   - [What is a Domain Name?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name): A domain name is a unique, easy-to-remember address used to access websites, such as ‘google.com’, and ‘facebook.com’. Users can connect to websites using domain names thanks to the Domain Name System (DNS).
-   - [Beginner's Guide: What is a Domain Name and How Does it Work?](https://www.wpbeginner.com/beginners-guide/beginners-guide-what-is-a-domain-name-and-how-do-domains-work/)
+![root-nameservers-updated](https://github.com/user-attachments/assets/07ad8004-27f1-4240-931e-6a6bde22025c)
+![your-domains-authoritative-nameservers](https://github.com/user-attachments/assets/92dff261-9ab4-45c0-a716-380a770eb35d)
+![ns-records](https://github.com/user-attachments/assets/e23732ed-3d53-4de7-ac92-62fca13151c2)
+![subdomains-updated](https://github.com/user-attachments/assets/327887a0-7024-4cd7-9442-8e4ea5bfd094)
 
-- **Simple Mail Transfer Protocol (SMTP)**: SMTP is a protocol used for sending email messages between mail servers. It defines how email messages are transmitted and delivered over the internet. SMTP operates on TCP and uses port 25 by default.
-- **Secure Shell (SSH)**: SSH is a cryptographic network protocol used for secure remote access to networked devices. It provides encrypted communication and authentication mechanisms for secure login sessions. SSH operates on TCP and uses port 22 by default.
+#### Resolvers
+
+![why-dns-updates-are-slow](https://github.com/user-attachments/assets/25efce06-7239-4271-ad0c-1174be41d983)
+![negative-caching-updated](https://github.com/user-attachments/assets/b9c127ce-4ff5-4675-960c-17a754c6d94c)
+![resolvers-can-lie](https://github.com/user-attachments/assets/1d257995-ea61-415b-be32-6aa9cd4283dc)
+![tiny-dns-resolver-updated](https://github.com/user-attachments/assets/05cffc0a-d136-4120-856d-a381405f7615)
+
+
+- [How DNS works (comic)](https://howdns.works/)
+- [DNS and How does it Work?](https://www.youtube.com/watch?v=Wj0od2ag5sk)
+- [DNS Records](https://www.youtube.com/watch?v=7lxgpKh_fRY)
+- [Complete DNS mini-series](https://www.youtube.com/watch?v=zEmUuNFBgN8&list=PLTk5ZYSbd9MhMmOiPhfRJNW7bhxHo4q-K)
+- [DNS in One Picture](https://roadmap.sh/guides/dns-in-one-picture)
+- [DNS Explained](https://youtu.be/72snZctFFtA)
+- [What is a Domain Name?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name): A domain name is a unique, easy-to-remember address used to access websites, such as ‘google.com’, and ‘facebook.com’. Users can connect to websites using domain names thanks to the Domain Name System (DNS).
+- [Beginner's Guide: What is a Domain Name and How Does it Work?](https://www.wpbeginner.com/beginners-guide/beginners-guide-what-is-a-domain-name-and-how-do-domains-work/)
+
+### Simple Mail Transfer Protocol (SMTP)
+
+SMTP is a protocol used for sending email messages between mail servers. It defines how email messages are transmitted and delivered over the internet. SMTP operates on TCP and uses port 25 by default.
+
+### ecure Shell (SSH)
+
+SSH is a cryptographic network protocol used for secure remote access to networked devices. It provides encrypted communication and authentication mechanisms for secure login sessions. SSH operates on TCP and uses port 22 by default.
    <div align="center">
       
   ![ssh](https://github.com/user-attachments/assets/622a3068-6bdf-49f4-9890-c85bb7c556fa)
 
    </div>
+   
 - **Telnet**: Telnet is a protocol used for remote terminal emulation over a network. It allows users to access and manage devices remotely using a command-line interface. Telnet operates on TCP and uses port 23 by default.
 - **Dynamic Host Configuration Protocol (DHCP)**: DHCP is a protocol used for dynamically assigning IP addresses to network devices. It simplifies network configuration by automatically allocating IP addresses, subnet masks, default gateways, and other parameters to devices when they connect to a network.
 - **Network Time Protocol (NTP)**: NTP is a protocol used for synchronizing the clocks of networked devices. It ensures accurate timekeeping across distributed systems by synchronizing devices with a reference time source.
