@@ -1,4 +1,4 @@
-# Net Practice
+![tcp-1](https://github.com/user-attachments/assets/a0a3455d-2a58-4e68-be41-b729de38c1a6)# Net Practice
 
 ## Overview
 
@@ -41,9 +41,9 @@ Networking encompasses a wide range of concepts and principles that form the fou
 ### 1. Networking Models (OSI, TCP/IP):
 #### OSI Model (Open Systems Interconnection):
 
-![layers](https://github.com/user-attachments/assets/687b32d6-4ef3-4616-b19d-aa56c281faf4)
-
 The OSI model is a conceptual framework that standardizes the functions of a telecommunication or computing system into seven abstraction layers. It was developed by the International Organization for Standardization (ISO) in the late 1970s.
+
+![layers](https://github.com/user-attachments/assets/687b32d6-4ef3-4616-b19d-aa56c281faf4)
 
 The OSI model serves as a guideline for designing and understanding network communication systems. By breaking down network communication into layers, it allows for modular design, interoperability, and easier troubleshooting.
 
@@ -93,11 +93,20 @@ The TCP/IP model is a simplified version of the OSI model, commonly used in mode
 
 ![network-protocols](https://github.com/user-attachments/assets/91163c8d-fb13-4923-8ca0-fd7716a64fcb)
 
-- **TCP (Transmission Control Protocol)**: TCP is a reliable, connection-oriented protocol used for transmitting data packets over networks. It provides mechanisms for establishing and terminating connections, acknowledging received data packets, retransmitting lost packets, and controlling data flow to ensure reliable and orderly communication between devices.
-- **IP (Internet Protocol)**: IP is a network layer protocol responsible for addressing and routing data packets across interconnected networks. It assigns unique IP addresses to devices and uses routing algorithms to determine the best path for packet delivery. IP is the foundation of the internet and is used to transmit data between devices worldwide.
-- **UDP (User Datagram Protocol)**: UDP is a connectionless, unreliable protocol used for transmitting data packets over networks. Unlike TCP, UDP does not establish a connection before sending data and does not provide error checking, sequencing, or flow control mechanisms. UDP is commonly used for real-time applications such as voice and video streaming, where low latency and high throughput are more important than reliability.
-- **ICMP (Internet Control Message Protocol)**: ICMP is a network layer protocol used for sending control messages and error reporting between devices on IP networks. It includes messages such as echo request/reply (ping), destination unreachable, time exceeded, and parameter problem. ICMP plays a critical role in diagnosing network connectivity issues, troubleshooting routing problems, and monitoring network performance.
-- **ARP (Address Resolution Protocol)**: ARP is a protocol used for mapping IP addresses to MAC addresses on a local network. It enables devices to determine the hardware address of a target device for communication. ARP is essential for transmitting data between devices within the same subnet and is commonly used in Ethernet networks.
+1. **TCP (Transmission Control Protocol)**: TCP is a reliable, connection-oriented protocol used for transmitting data packets over networks. It provides mechanisms for establishing and terminating connections, acknowledging received data packets, retransmitting lost packets, and controlling data flow to ensure reliable and orderly communication between devices.
+  
+   ![tcp-1](https://github.com/user-attachments/assets/602be93b-258a-438f-9757-497e53e62193)
+
+
+2. **IP (Internet Protocol)**: IP is a network layer protocol responsible for addressing and routing data packets across interconnected networks. It assigns unique IP addresses to devices and uses routing algorithms to determine the best path for packet delivery. IP is the foundation of the internet and is used to transmit data between devices worldwide.
+
+   ![ip](https://github.com/user-attachments/assets/dea6e72a-c7b1-4401-8408-46837a7545a4)
+
+
+3. **UDP (User Datagram Protocol)**: UDP is a connectionless, unreliable protocol used for transmitting data packets over networks. Unlike TCP, UDP does not establish a connection before sending data and does not provide error checking, sequencing, or flow control mechanisms. UDP is commonly used for real-time applications such as voice and video streaming, where low latency and high throughput are more important than reliability.
+
+4. **ICMP (Internet Control Message Protocol)**: ICMP is a network layer protocol used for sending control messages and error reporting between devices on IP networks. It includes messages such as echo request/reply (ping), destination unreachable, time exceeded, and parameter problem. ICMP plays a critical role in diagnosing network connectivity issues, troubleshooting routing problems, and monitoring network performance.
+5. **ARP (Address Resolution Protocol)**: ARP is a protocol used for mapping IP addresses to MAC addresses on a local network. It enables devices to determine the hardware address of a target device for communication. ARP is essential for transmitting data between devices within the same subnet and is commonly used in Ethernet networks.
   - [ByteByteGo - Top 8 Most Popular Network Protocols Explained](https://youtu.be/P6SZLcGE4us)
 
 ### 5. Network Topologies
