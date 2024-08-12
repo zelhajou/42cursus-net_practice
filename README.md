@@ -281,33 +281,44 @@ FTP is a protocol used for transferring files between a client and a server over
 DNS is a distributed naming system that translates domain names into IP addresses and vice versa. It enables users to access websites using human-readable domain names instead of numerical IP addresses. DNS operates on both UDP (for queries) and TCP (for zone transfers).
 <div align="center">
 
-![why-dns](https://github.com/user-attachments/assets/4a47ad9b-3fb6-407e-a079-8e7ca33a6280)
-![dns-server-types](https://github.com/user-attachments/assets/7dde8390-e309-467f-bed3-6da7616a4bb8)
-![cast-of-characters-updated](https://github.com/user-attachments/assets/a52b86c3-6274-4924-b456-af35fbe17455)
-![resolvers-vs-authoritative-nameservers-updated](https://github.com/user-attachments/assets/e6a87b6c-5ae9-44b2-a6ff-21e479001cd3)
-![dns-hierarchy-updated](https://github.com/user-attachments/assets/df6e67b3-a3bf-42b1-a782-20e41837445b)
-![life-of-a-dns-query-updated (3)](https://github.com/user-attachments/assets/a57a9a30-4da0-4a51-9787-f89ed66e9d60)
-![dns-records](https://github.com/user-attachments/assets/acce1f6e-9ad2-427a-85ee-0d65d29aac7d)
-![dns-record-types](https://github.com/user-attachments/assets/213015ad-7c13-4f84-920b-b219230c1f32)
-![everything-inside-dns-packet-updated](https://github.com/user-attachments/assets/929998be-1908-4320-a65c-ceb551a6f6c2)
-<!--
-![z9rwm5A](https://github.com/zelhajou/42-net_practice/assets/39954629/4d018fa7-64be-41a3-a719-e44f52ba1fd1)
--->
+| ![why-dns](https://github.com/user-attachments/assets/4a47ad9b-3fb6-407e-a079-8e7ca33a6280) | ![dns-server-types](https://github.com/user-attachments/assets/7dde8390-e309-467f-bed3-6da7616a4bb8) | ![cast-of-characters-updated](https://github.com/user-attachments/assets/a52b86c3-6274-4924-b456-af35fbe17455) |
+|:---------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|
+| ![resolvers-vs-authoritative-nameservers-updated](https://github.com/user-attachments/assets/e6a87b6c-5ae9-44b2-a6ff-21e479001cd3) | ![dns-hierarchy-updated](https://github.com/user-attachments/assets/df6e67b3-a3bf-42b1-a782-20e41837445b) | ![life-of-a-dns-query-updated (3)](https://github.com/user-attachments/assets/a57a9a30-4da0-4a51-9787-f89ed66e9d60) |
+| ![dns-records](https://github.com/user-attachments/assets/acce1f6e-9ad2-427a-85ee-0d65d29aac7d) | ![dns-record-types](https://github.com/user-attachments/assets/213015ad-7c13-4f84-920b-b219230c1f32) | ![everything-inside-dns-packet-updated](https://github.com/user-attachments/assets/929998be-1908-4320-a65c-ceb551a6f6c2) |
+
+
 </div>
    
 #### Authoritative Nameservers
 
-![root-nameservers-updated](https://github.com/user-attachments/assets/07ad8004-27f1-4240-931e-6a6bde22025c)
-![your-domains-authoritative-nameservers](https://github.com/user-attachments/assets/92dff261-9ab4-45c0-a716-380a770eb35d)
-![ns-records](https://github.com/user-attachments/assets/e23732ed-3d53-4de7-ac92-62fca13151c2)
-![subdomains-updated](https://github.com/user-attachments/assets/327887a0-7024-4cd7-9442-8e4ea5bfd094)
+| ![root-nameservers-updated](https://github.com/user-attachments/assets/07ad8004-27f1-4240-931e-6a6bde22025c) | ![your-domains-authoritative-nameservers](https://github.com/user-attachments/assets/92dff261-9ab4-45c0-a716-380a770eb35d) | ![ns-records](https://github.com/user-attachments/assets/e23732ed-3d53-4de7-ac92-62fca13151c2) | ![subdomains-updated](https://github.com/user-attachments/assets/327887a0-7024-4cd7-9442-8e4ea5bfd094) |
+|:-------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------:|
+
 
 #### Resolvers
 
-![why-dns-updates-are-slow](https://github.com/user-attachments/assets/25efce06-7239-4271-ad0c-1174be41d983)
-![negative-caching-updated](https://github.com/user-attachments/assets/b9c127ce-4ff5-4675-960c-17a754c6d94c)
-![resolvers-can-lie](https://github.com/user-attachments/assets/1d257995-ea61-415b-be32-6aa9cd4283dc)
-![tiny-dns-resolver-updated](https://github.com/user-attachments/assets/05cffc0a-d136-4120-856d-a381405f7615)
+| ![why-dns-updates-are-slow](https://github.com/user-attachments/assets/25efce06-7239-4271-ad0c-1174be41d983) | ![negative-caching-updated](https://github.com/user-attachments/assets/b9c127ce-4ff5-4675-960c-17a754c6d94c) | ![resolvers-can-lie](https://github.com/user-attachments/assets/1d257995-ea61-415b-be32-6aa9cd4283dc) | ![tiny-dns-resolver-updated](https://github.com/user-attachments/assets/05cffc0a-d136-4120-856d-a381405f7615) |
+|:-------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|
+
+#### On your computer
+
+| ![lets-meet-dig](https://github.com/user-attachments/assets/7f5992e4-9c25-4529-bb1d-4f594429dfc9) | ![dig-command-line-arguments](https://github.com/user-attachments/assets/f04d9827-a210-4456-8e0a-1c297a3040e6) | ![dig-output](https://github.com/user-attachments/assets/80d77ba7-df54-4432-897e-d3c55e4fcc38) |
+|:-------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|
+| ![getaddrinfo](https://github.com/user-attachments/assets/1c52bf7f-c440-4303-9556-1fa8030b6240) | ![search-domains](https://github.com/user-attachments/assets/daf0a32f-e742-4626-a0f3-ef6f13da470a) | ![tcp-dns](https://github.com/user-attachments/assets/1fdac1d0-b39e-416e-941b-0c3712c44a62) |
+
+
+#### DNS record types
+
+| ![a-and-aaaa-records](https://github.com/user-attachments/assets/44402dc4-b15f-436c-a91c-3c89aeea6049) | ![cname-records-updated](https://github.com/user-attachments/assets/cdbd3100-9ba4-40a4-b793-c3f1913a6d1c) | ![mx-records](https://github.com/user-attachments/assets/dacd28d4-f2b4-475a-9628-e36ccc139104) | ![txt-records](https://github.com/user-attachments/assets/4acaa633-49b9-45d5-ac43-eed3b3cae9ab) |
+|:-------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|
+
+---
+
+<div align=center>
+
+<img src="https://github.com/zelhajou/42-net_practice/assets/39954629/4d018fa7-64be-41a3-a719-e44f52ba1fd1" alt="z9rwm5A" width="400"/>
+
+</div>
 
 
 - [How DNS works (comic)](https://howdns.works/)
@@ -499,9 +510,9 @@ OWASP or Open Web Application Security Project is an online community that produ
 - [OWASP Cheatsheets](https://sucuri.net/guides/owasp-top-10-security-vulnerabilities-2021/)
 
 
-![networking-tools-poster-1](https://github.com/user-attachments/assets/ebab2307-3500-4a5e-b410-50506e644fd3)
 
-![misc-networking-tools](https://github.com/user-attachments/assets/1ec85bca-9460-4736-8ca0-6548a021ae7b)
+<img src="https://github.com/user-attachments/assets/ebab2307-3500-4a5e-b410-50506e644fd3" alt="networking-tools-poster-1" width="400"/> <img src="https://github.com/user-attachments/assets/1ec85bca-9460-4736-8ca0-6548a021ae7b" alt="misc-networking-tools" width="400"/>
+
 
 
 
