@@ -1,4 +1,4 @@
-![tcp-1](https://github.com/user-attachments/assets/a0a3455d-2a58-4e68-be41-b729de38c1a6)# Net Practice
+# Net Practice
 
 ## Overview
 
