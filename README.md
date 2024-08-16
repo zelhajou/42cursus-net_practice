@@ -1,3 +1,5 @@
+![ascii-text-art (3)](https://github.com/user-attachments/assets/2413bfdd-c40f-402c-b3ed-3217d3e0934d)
+
 # Net Practice
 
 ## Overview
